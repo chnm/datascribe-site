@@ -1,0 +1,49 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    text-align:center;
+}
+
+p {
+    font-size:1.25rem;
+    font-weight: 300;
+}
+
+a {
+    color:#4B66B0;
+}
+
+.sticky-container {
+    text-align:center;
+}
+
+.top-bar, .top-bar ul {
+    background:#fff;
+}
+
+.top-bar-right ul {
+    margin:.5rem 0;
+    font-size:1.5rem;
+    margin-left:41%;
+}
+
+.is-selected {
+    border-bottom:1px solid #B963A7;
+}
+
+h1 {
+    text-indent: -9999px;
+}
+
+.anchor {
+    scroll-margin-top:362px;
+}
+
+#where, #who {
+    padding-top:1rem;
+}
+
+footer {
+    min-height:500px;
+}

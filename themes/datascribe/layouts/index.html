@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head" . }}
+  <body>
+    <div data-sticky-container>
+      <div class="top-bar stacked-for-large" data-sticky data-options="marginTop:0;">
+        <div class="top-bar-left">
+          <h1>Datascribe</h1>
+          <img class="center" src="{{ .Site.BaseURL }}img/datascribe-logo.png" alt="Logo for datascribe">
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li class="is-selected"><a href="#what">What</a></li>
+            <li><a href="#where">Where</a></li>
+            <li><a href="#who">Who</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-8 medium-offset-2 cell">
+          <div class="anchor" id="what">
+            <h2>What is Datascribe?</h2>
+            <p>Datscribe is an Omeka S module for the transcription of structured data. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quia odio architecto commodi beatae. Natus ad quo nostrum cupiditate numquam vel fugit quaerat veritatis sed, repellat facilis odio officiis molestiae.</p>
+            <p>Inventore, nobis unde atque nam corporis porro dignissimos obcaecati commodi nesciunt eius quasi natus explicabo sunt facere eveniet soluta dolores laborum architecto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere fuga soluta impedit enim dolorum unde, aspernatur esse incidunt! Perspiciatis quae reiciendis eveniet laborum ducimus dolore facilis quas maiores, culpa ut!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, nobis unde atque nam corporis porro dignissimos obcaecati commodi nesciunt eius quasi natus explicabo sunt facere eveniet soluta dolores laborum architecto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere fuga soluta impedit enim dolorum unde, aspernatur esse incidunt! Perspiciatis quae reiciendis eveniet laborum ducimus dolore facilis quas maiores, culpa ut!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Suscipit hic, minima facilis odio illum odit non ad repellat dolor asperiores sapiente error rem? Reprehenderit molestiae facere aliquam rerum.</p>
+          </div>
+          <div class="anchor" id="where">
+            <h2>Where can I get this amazing module?</h2>
+            <p>You can download the module here: <a href="https://github.com/chnm/Datascribe-module">https://github.com/chnm/Datascribe-module</a></p>
+          </div>
+          <div class="anchor" id="who">
+            <h2>Who is working on this project?</h2>
+            <ul>
+              <li>Some One</li>
+              <li>Some One</li>
+              <li>Some One</li>
+              <li>Some One</li>
+              <li>Some One</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>
