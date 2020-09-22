@@ -1,8 +1,34 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    line-height: 0;
+}
 h2 {
+    /* font-family:'Share Tech', sans-serif; */
     text-align:center;
+    color:#4B66B0;
+    width:100%;
+    margin-top:2rem;
+}
+
+h3 {
+    position:relative;
+    font-size: 1.5rem;
+}
+
+h3:after {
+    content:"";
+    position: absolute;
+    border-bottom:1px solid #B963A7;
+    width:50%;
+    display:block;
+    left:25%;
 }
 
 p {
@@ -12,38 +38,86 @@ p {
 
 a {
     color:#4B66B0;
+    border-bottom: 1px solid #4B66B0;
 }
 
-.sticky-container {
+.member {
+    text-align: center;
+    padding:1rem .25rem 0 .25rem;
+}
+
+.board {
+    text-align: center;
+}
+
+.board p {
+    font-weight: 400;
+}
+
+/* .sticky-container {
     text-align:center;
-}
+    margin-bottom: 3rem;
+    background:#fff;
+} */
 
-.top-bar, .top-bar ul {
+/* .sticky-container img {
+    width:33%;
+
+} */
+
+/* .is-stuck img {
+    width:25%;
+    margin-bottom: 1rem;
+} */
+
+.bar {
+    background-color: #fff;
+    text-align:center;
     background:#fff;
 }
 
-.top-bar-right ul {
+.bar img {
+    width:33%;
+
+}
+
+/* .top-bar-right ul {
     margin:.5rem 0;
     font-size:1.5rem;
     margin-left:41%;
-}
+} */
 
-.is-selected {
+/* .is-selected {
     border-bottom:1px solid #B963A7;
-}
+} */
 
 h1 {
     text-indent: -9999px;
 }
 
-.anchor {
+/* .anchor {
     scroll-margin-top:362px;
-}
+} */
 
-#where, #who {
+/* #where, #who {
     padding-top:1rem;
-}
+} */
 
 footer {
-    min-height:500px;
+    border-top:1px solid #B963A7;
+    padding:2rem 0;
+    margin-top:2rem;
+}
+
+.img-link {
+    border: none;
+}
+
+footer img {
+    width:50%;
+}
+
+.contact {
+    text-align:right;
+    align-self: flex-end;
 }
