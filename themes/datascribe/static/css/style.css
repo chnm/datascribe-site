@@ -36,6 +36,15 @@ p {
     font-weight: 300;
 }
 
+p.four-hundred {
+    font-weight:400;
+}
+
+.italic {
+    font-style: italic;
+    font-size:1.1rem;
+}
+
 a {
     color:#4B66B0;
     border-bottom: 1px solid #4B66B0;
@@ -113,11 +122,11 @@ footer {
     border: none;
 }
 
-footer img {
-    width:50%;
+p.neh-text {
+    font-weight: 100;
+    font-size:.75rem;
+    font-style: italic;
 }
-
 .contact {
     text-align:right;
-    align-self: flex-end;
 }
