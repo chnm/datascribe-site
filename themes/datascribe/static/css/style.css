@@ -84,10 +84,10 @@ a {
     text-align:center;
     background:#fff;
 }
-
+@media screen and (min-width: 40em) {
 .bar img {
     width:33%;
-
+}
 }
 
 /* .top-bar-right ul {
@@ -130,3 +130,30 @@ p.neh-text {
 .contact {
     text-align:right;
 }
+.center {
+    text-align: center;
+}
+.button {
+    margin-bottom: 1.5rem;
+    background-color:#B963A7;
+    font-size:1.5rem;
+}
+
+.button:hover, .button:active, .button:focus {
+    background-color:#A85A98;
+}
+
+.grid-container {
+    padding-top:2rem;
+}
+
+@media screen and (min-width: 40em) {
+    .grid-container {
+        padding-top:4rem;
+    }
+}
+
+.large-p {
+    font-size:2rem
+}
+
