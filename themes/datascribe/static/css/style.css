@@ -84,11 +84,16 @@ a {
     text-align:center;
     background:#fff;
 }
+.bar img {
+    max-width:90%;
+}
 @media screen and (min-width: 40em) {
 .bar img {
     width:33%;
 }
 }
+
+
 
 /* .top-bar-right ul {
     margin:.5rem 0;
