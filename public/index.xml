@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Datascribe</title>
     <link>/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Datascribe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Help</title>
+      <link>/help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/help/</guid>
+      <description>Before you create a project, your content will need to exist in Omeka S as items. DataScribe works with the items and items sets in your Omeka S install. You will build datasets using item sets, and these datasets will be made up of items.
+Creating Omeka S resources Item sets DataScribe uses existing Omeka S item sets as the basis for datasets.
+Each dataset has one transcription form. You will need to create a unique item set for each form type you intend to create.</description>
+    </item>
     
   </channel>
 </rss>
