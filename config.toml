@@ -1,5 +1,5 @@
 baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Datascribe"
 theme = "datascribe"
 relativeurls = true
