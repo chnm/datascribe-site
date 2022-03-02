@@ -1,6 +1,5 @@
 ---
 title: "Example One"
-layout: "section"
 summary: "case study"
 weight: 3
 ---

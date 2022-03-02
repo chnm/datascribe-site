@@ -1,4 +1,11 @@
 {{ partial "head" . }}
 {{ partial "header.html"}}
-{{ .Content }}
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="medium-8 medium-offset-2 cell">
+        <div class="anchor" id="what">
+  {{ .Content }}  
+        </div>
+    </div>
+</div>
 {{partial "footer" . }}

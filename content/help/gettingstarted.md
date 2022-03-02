@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 slug: "gettingstarted"
-layout: single
+weight: 3
 ---
 
 Before you create a project, your content will need to exist in Omeka S as items. DataScribe works with the items and items sets in your Omeka S install. You will build datasets using item sets, and these datasets will be made up of items.
