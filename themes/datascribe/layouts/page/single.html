@@ -1,0 +1,16 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+<div class="bar">
+  <img class="center" src="{{ .Site.BaseURL }}img/datascribe-logo.png" alt="Logo for DataScribe">
+ 
+</div>
+<div class="grid-container">
+  <div class="grid-x grid-padding-x">
+    <div class="medium-8 medium-offset-2 cell">
+        <h1 class="page">{{ .Title }}</h1> 
+        <p>This is the Page layout</p>
+        {{ .Content }}
+    </div>  
+  </div>
+</div>
+{{ end }}

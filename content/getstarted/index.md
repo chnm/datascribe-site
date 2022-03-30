@@ -1,7 +1,5 @@
 ---
-title: "Help"
-summary: "Help"
-weight: 1
+title: "Get Started"
 ---
 
 # Header text
