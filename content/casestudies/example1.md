@@ -1,7 +1,8 @@
 ---
 title: "Example One"
 summary: "case study"
-weight: 3
+type: post
+url: /casestudies/example1/
 ---
 
 ## Example One
