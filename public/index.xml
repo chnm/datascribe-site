@@ -7,18 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>/</link>
+      <title>Case Studies</title>
+      <link>/casestudies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/</guid>
-      <description>DataScribe
-{.center}
-A structured data transcription module for the Omeka S platform.
-Download DataScribe!{.button}
-Download the ZIP, move it to the Omeka S modules/ directory, and unzip it there. Then go to your Omeka S installation under &amp;quot;Modules&amp;quot; and install DataScribe there.
-You can also consult the documentation or file issues.
-What is DataScribe? Scholars often collect sources, such as government forms or institutional records, intending to transcribe them into datasets which can be analyzed or visualized.</description>
+      <guid>/casestudies/</guid>
+      <description>Your pillow is now my pet bed bird bird bird bird bird bird human why take bird out i could have eaten that but get scared by doggo also cucumerro . Sit in a box for hours. Drool. Gnaw the corn cob mice so meow and walk away. Scream at teh bath fall asleep on the washing machine fall asleep on the washing machine. Carrying out surveillance on the neighbour&amp;rsquo;s dog attack feet cough furball into food bowl then scratch owner for a new one attack the child scratch the furniture it&amp;rsquo;s 3am, time to create some chaos meow to be let out.</description>
+    </item>
+    
+    <item>
+      <title>Get Started</title>
+      <link>/getstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getstarted/</guid>
+      <description>Header text Before you create a project, your content will need to exist in Omeka S as items. DataScribe works with the items and items sets in your Omeka S install. You will build datasets using item sets, and these datasets will be made up of items.
+Creating Omeka S resources Item sets DataScribe uses existing Omeka S item sets as the basis for datasets.
+Each dataset has one transcription form.</description>
     </item>
     
   </channel>

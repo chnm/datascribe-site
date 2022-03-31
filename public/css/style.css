@@ -6,9 +6,23 @@ h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
 }
 
+
 h1 {
     line-height: 0;
+    text-indent: -9999px;
+
 }
+
+h1.page {
+    text-align:center;
+    color:#4B66B0;
+    width:100%;
+    margin-top:2rem;
+    line-height: normal;
+    text-indent: 0px;.
+    font-size:3rem;
+}
+
 h2 {
     /* font-family:'Share Tech', sans-serif; */
     text-align:center;
@@ -22,7 +36,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-h3:after {
+h3.index:after {
     content:"";
     position: absolute;
     border-bottom:1px solid #B963A7;
@@ -33,7 +47,7 @@ h3:after {
 
 p {
     font-size:1.25rem;
-    font-weight: 300;
+    font-weight: 350;
 }
 
 p.four-hundred {
@@ -104,10 +118,6 @@ a {
 /* .is-selected {
     border-bottom:1px solid #B963A7;
 } */
-
-h1 {
-    text-indent: -9999px;
-}
 
 /* .anchor {
     scroll-margin-top:362px;
