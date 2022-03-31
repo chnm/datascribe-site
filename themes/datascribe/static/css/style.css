@@ -54,6 +54,10 @@ p.four-hundred {
     font-weight:400;
 }
 
+li{
+    font-weight: 390;
+}
+
 .italic {
     font-style: italic;
     font-size:1.1rem;
