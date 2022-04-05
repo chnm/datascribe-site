@@ -5,16 +5,17 @@
     <link>/</link>
     <description>Recent content on DataScribe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>CC-BY-NC 4.0 Roy Rosenzweig Center for History and New Media, 2020-{year}</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Case Studies</title>
-      <link>/casestudies/</link>
+      <title>About</title>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/casestudies/</guid>
-      <description>These case studies are offered as holistic models of a project using DataScribe, including
-Projects using DataScribe Projects and people using Datascribe in the wild, not including these two.
-Religious Ecologies In the following case study we describe how the American Religious Ecologies project at the Roy Rosenzweig Center for History and New Media utilized DataScribe to transcribe tabular data from early twentieth-century digitized census forms in order to create a new dataset for American religious history.</description>
+      <guid>/about/</guid>
+      <description>DataScribe is a project of the Roy Rosenzweig Center for History and New Media at George Mason University.
+Staff Funders DataScribe has been made possible in part by a major grant from the National Endowment for the Humanities: Exploring the human endeavor.
+ Any views, findings, conclusions, or recommendations expressed in this Web resource do not necessarily represent those of the National Endowment for the Humanities</description>
     </item>
     
     <item>
@@ -23,7 +24,7 @@ Religious Ecologies In the following case study we describe how the American Rel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/getstarted/</guid>
-      <description>Getting Started with DataScribe In order to start working with DataScribe, you will need:
+      <description>In order to start working with DataScribe, you will need:
  to have a plan for how you want to sort your content into datasets; to have a plan for how you want to build the forms for your data and datasets; to add your historical data sources into Omeka as as items and item sets.  Thinking about data Things you need to decide:
  How many forms do you want to build?</description>
     </item>

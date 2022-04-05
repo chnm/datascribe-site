@@ -139,6 +139,7 @@ footer {
     margin-right: -15;
 }
 
+/* Footer logos - no longer in use
 footer .logos img {
     width: 200px;
     height: auto;
@@ -146,6 +147,7 @@ footer .logos img {
     box-shadow: none;
     border: 0;
 }  
+*/
 
 .img-link {
     border: none;
@@ -192,4 +194,10 @@ p.neh-text {
 
 .page{
     max-width:90%;
+}
+
+.neh-logo{
+    margin: 1em;
+    width: 50%;
+    height: auto;
 }
