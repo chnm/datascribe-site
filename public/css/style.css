@@ -19,7 +19,7 @@ h1.page {
     width:100%;
     margin-top:2rem;
     line-height: normal;
-    text-indent: 0px;.
+    text-indent: 0px;
     font-size:3rem;
 }
 
@@ -52,6 +52,10 @@ p {
 
 p.four-hundred {
     font-weight:400;
+}
+
+li{
+    font-weight: 390;
 }
 
 .italic {
@@ -131,6 +135,8 @@ footer {
     border-top:1px solid #B963A7;
     padding:2rem 0;
     margin-top:2rem;
+    margin-left: 16.66667%;
+    margin-right: -15;
 }
 
 .img-link {

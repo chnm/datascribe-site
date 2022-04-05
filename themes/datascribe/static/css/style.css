@@ -139,6 +139,14 @@ footer {
     margin-right: -15;
 }
 
+footer .logos img {
+    width: 200px;
+    height: auto;
+    margin: $global-margin (2 * $global-margin) 0 0;
+    box-shadow: none;
+    border: 0;
+}  
+
 .img-link {
     border: none;
 }

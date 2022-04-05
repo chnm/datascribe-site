@@ -2,8 +2,6 @@
 title: "Get Started"
 ---
 
-# Getting Started with DataScribe
-
 In order to start working with DataScribe, you will need:
 
 - to have a plan for how you want to sort your content into datasets;

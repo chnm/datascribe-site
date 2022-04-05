@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Datascribe</title>
+    <title>DataScribe</title>
     <link>/</link>
-    <description>Recent content on Datascribe</description>
+    <description>Recent content on DataScribe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/casestudies/</guid>
-      <description>Your pillow is now my pet bed bird bird bird bird bird bird human why take bird out i could have eaten that but get scared by doggo also cucumerro . Sit in a box for hours. Drool. Gnaw the corn cob mice so meow and walk away. Scream at teh bath fall asleep on the washing machine fall asleep on the washing machine. Carrying out surveillance on the neighbour&amp;rsquo;s dog attack feet cough furball into food bowl then scratch owner for a new one attack the child scratch the furniture it&amp;rsquo;s 3am, time to create some chaos meow to be let out.</description>
+      <description>These case studies are offered as holistic models of a project using DataScribe, including
+Projects using DataScribe Projects and people using Datascribe in the wild, not including these two.
+Religious Ecologies In the following case study we describe how the American Religious Ecologies project at the Roy Rosenzweig Center for History and New Media utilized DataScribe to transcribe tabular data from early twentieth-century digitized census forms in order to create a new dataset for American religious history.</description>
     </item>
     
     <item>
@@ -21,9 +23,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/getstarted/</guid>
-      <description>Header text Before you create a project, your content will need to exist in Omeka S as items. DataScribe works with the items and items sets in your Omeka S install. You will build datasets using item sets, and these datasets will be made up of items.
-Creating Omeka S resources Item sets DataScribe uses existing Omeka S item sets as the basis for datasets.
-Each dataset has one transcription form.</description>
+      <description>Getting Started with DataScribe In order to start working with DataScribe, you will need:
+ to have a plan for how you want to sort your content into datasets; to have a plan for how you want to build the forms for your data and datasets; to add your historical data sources into Omeka as as items and item sets.  Thinking about data Things you need to decide:
+ How many forms do you want to build?</description>
     </item>
     
   </channel>
