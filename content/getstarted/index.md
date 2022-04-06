@@ -17,6 +17,10 @@ Things you need to decide:
     - If you were working with an address book, you might want each contact to be a record - a row in the final export. Not all sources will be this straightforward.
 - What information do you need or want to capture from each kind of item and for each kind of record?
 
+The following articles and tutorials can help you think through these decisions. 
+
+- Greta Swain, ["Deploying datascribe to create a new dataset for American Religious History,"](https://religiousecologies.org/blog/deploying-datascribe-to-create-a-new-dataset-for-american-religious-history/) *American Religious Ecologies* (blog), April 16, 2021.
+
 ## Creating Omeka S resources
 
 DataScribe works with the items and items sets in your Omeka S install. You will build datasets using item sets, and these datasets will be made up of items.
@@ -50,7 +54,5 @@ The DataScribe transcription interface currently supports:
 If you have tiff or pdf images, you will need to convert them to one of the above formats.
 
 ## Further Assistance
-
-For models of how to think through these decisions, see the DataScribe [case studies](/casestudies/).
 
 For technical support, consult the [user manual](https://github.com/chnm/Datascribe-module/wiki), file [an issue on GitHub](https://github.com/chnm/Datascribe-module/issues), or ask a question on the [Omeka forum](https://forum.omeka.org/c/omeka-s/modules/22).
