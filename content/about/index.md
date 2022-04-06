@@ -1,5 +1,6 @@
 ---
 title: About
+type: about
 ---
 
 DataScribe is a project of the Roy Rosenzweig Center for History and New Media at George Mason University.
