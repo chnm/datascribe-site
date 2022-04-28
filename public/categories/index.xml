@@ -5,7 +5,7 @@
     <link>/categories/</link>
     <description>Recent content in Categories on DataScribe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-us</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <copyright>CC-BY-NC 4.0 Roy Rosenzweig Center for History and New Media, 2020-{year}</copyright><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
