@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>DataScribe</title>
     <link>/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on DataScribe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>CC-BY-NC 4.0 Roy Rosenzweig Center for History and New Media, 2020-{year}</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>DataScribe is a project of the Roy Rosenzweig Center for History and New Media at George Mason University.
+Project Team Ken Albers Developer
+ Megan Brett Outreach Coordinator
+ Daniel Howlett Graduate Research Assistant
+ Lincoln Mullen Co-Director
+ Kim Nguyen Designer
+ Jessica Otis Co-Director
+ Jim Safley Developer
+  Advisory Board Kalani Craig
+ Sharon Leon
+ Jeff McClurken
+ Luca Scholz
+  Funders DataScribe has been made possible in part by a major grant from the National Endowment for the Humanities.</description>
+    </item>
+    
+    <item>
+      <title>Get Started</title>
+      <link>/getstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/getstarted/</guid>
+      <description>In order to start working with DataScribe, you will need:
+ to have a plan for how you want to sort your content into datasets; to have a plan for how you want to build the forms for your data and datasets; to add your historical data sources into Omeka as as items and item sets.  Thinking about data Things you need to decide:
+ How many forms do you want to build?</description>
+    </item>
   </channel>
 </rss>

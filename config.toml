@@ -1,5 +1,6 @@
 baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "DataScribe"
 theme = "datascribe"
 relativeurls = true
+copyright = "CC-BY-NC 4.0 Roy Rosenzweig Center for History and New Media, 2020-{year}"

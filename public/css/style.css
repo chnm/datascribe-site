@@ -6,9 +6,23 @@ h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
 }
 
+
 h1 {
     line-height: 0;
+    text-indent: -9999px;
+
 }
+
+h1.page {
+    text-align:center;
+    color:#4B66B0;
+    width:100%;
+    margin-top:2rem;
+    line-height: normal;
+    text-indent: 0px;
+    font-size:3rem;
+}
+
 h2 {
     /* font-family:'Share Tech', sans-serif; */
     text-align:center;
@@ -22,7 +36,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-h3:after {
+h3.index:after {
     content:"";
     position: absolute;
     border-bottom:1px solid #B963A7;
@@ -33,11 +47,15 @@ h3:after {
 
 p {
     font-size:1.25rem;
-    font-weight: 300;
+    font-weight: 350;
 }
 
 p.four-hundred {
     font-weight:400;
+}
+
+li{
+    font-weight: 390;
 }
 
 .italic {
@@ -105,10 +123,6 @@ a {
     border-bottom:1px solid #B963A7;
 } */
 
-h1 {
-    text-indent: -9999px;
-}
-
 /* .anchor {
     scroll-margin-top:362px;
 } */
@@ -121,7 +135,19 @@ footer {
     border-top:1px solid #B963A7;
     padding:2rem 0;
     margin-top:2rem;
+    margin-left: 16.66667%;
+    margin-right: 16.66667%;
 }
+
+/* Footer logos - no longer in use
+footer .logos img {
+    width: 200px;
+    height: auto;
+    margin: $global-margin (2 * $global-margin) 0 0;
+    box-shadow: none;
+    border: 0;
+}  
+*/
 
 .img-link {
     border: none;
@@ -162,3 +188,16 @@ p.neh-text {
     font-size:2rem
 }
 
+.grid-container.nav{
+    padding-top:1rem;
+}
+
+.page{
+    max-width:90%;
+}
+
+.neh-logo{
+    margin: 1em;
+    width: 50%;
+    height: auto;
+}
