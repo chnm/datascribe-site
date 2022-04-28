@@ -1,18 +1,8 @@
 <footer>
-    <div class="grid-x">
-        <div class="cell small-4 medium-5">
-            <a class="img-link" href="https://rrchnm.org/"><img src="{{ .Site.BaseURL }}img/RRCHNM-logo-web.png" alt="Logo for Roy Rosenzweig Center for History and New Media"></a>
-        </div>
-        <div class="cell small-4 small-offset-4 medium-3 medium-offset-4">
-            <img class="img-link" src="{{ .Site.BaseURL }}img/NEH-Preferred-Seal820.jpg" alt="">
-        </div>
         <div class="cell medium-12">
-            <p><a href="mailto:chnm@gmu.edu">Contact us</a></p>
-            <p class="neh-text">Any views, findings, conclusions, or recommendations expressed in this Web resource do not necessarily represent those of the National Endowment for the Humanities.</p>
-            
-            
+            <p><span class="copyright"> {{ replace .Site.Copyright "{year}" now.Year }} </span></p>
+            <p><a href="https://rrchnm.org/our-story/contact-us/">Contact us</a></p>
         </div>
-
     </div>
    
 

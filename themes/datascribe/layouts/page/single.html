@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="bar">
+  <img class="center" src="{{ .Site.BaseURL }}img/datascribe-logo.png" alt="Logo for DataScribe">
+ 
+</div>
+<div class="grid-container">  
+    <div class="grid-x grid-padding-x">
+    <div class="medium-3 left">
+      {{ .TableOfContents }}
+    </div>
+    <div class="medium-8 cell">
+       <h1 class="page">{{ .Title }}</h1> 
+
+        {{ .Content }}
+
+    </div>  
+  </div>
+</div>
+{{ end }}
