@@ -112,6 +112,11 @@ a {
 }
 }
 
+.navlogo {
+    padding: 10px;
+    margin-left: 10px;
+    float: left;
+}
 
 
 /* .top-bar-right ul {
