@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://datascribe.tech"
 languageCode = "en-us"
 title = "DataScribe"
 theme = "datascribe"
