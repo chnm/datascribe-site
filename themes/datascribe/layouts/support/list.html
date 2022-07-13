@@ -10,14 +10,10 @@
 
         {{ .Content }}
 
-        <ul>
             <!-- Ranges through content/posts/*.md -->
             {{ range .Pages }}
-                <li>
-                    <a href="{{.Permalink}}">{{.Title}}</a>, {{.Summary}}
-                </li>
+                    <a href="{{.Permalink}}">{{.Title}}</a> {{.Summary}}
             {{ end }}
-            </ul>
     </div>  
   </div>
 </div>
