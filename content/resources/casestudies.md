@@ -4,11 +4,7 @@ type: page
 summary: "Examples of projects using DataScribe"
 ---
 
-These case studies are offered as holistic models of a project using DataScribe, including
-
-## Projects using DataScribe
-
-Projects and people using DataScribe in the wild, not including these two. 
+These case studies are offered as holistic models of a project using DataScribe, including public projects using DataScribe and internal case study work.
 
 ## Religious Ecologies
 

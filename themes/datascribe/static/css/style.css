@@ -69,19 +69,6 @@ a {
     border-bottom: 1px solid #4B66B0;
 }
 
-.member {
-    text-align: center;
-    padding:1rem .25rem 0 .25rem;
-}
-
-.board {
-    text-align: center;
-}
-
-.board p {
-    font-weight: 400;
-}
-
 /* .sticky-container {
     text-align:center;
     margin-bottom: 3rem;
@@ -124,55 +111,10 @@ a {
     float: left;
 }
 
-
-/* .top-bar-right ul {
-    margin:.5rem 0;
-    font-size:1.5rem;
-    margin-left:41%;
-} */
-
-/* .is-selected {
-    border-bottom:1px solid #B963A7;
-} */
-
-/* .anchor {
-    scroll-margin-top:362px;
-} */
-
-/* #where, #who {
-    padding-top:1rem;
-} */
-
-footer {
-    border-top:1px solid #B963A7;
-    padding:2rem 0;
-    margin-top:2rem;
-    margin-left: 16.66667%;
-    margin-right: 16.66667%;
-}
-
-/* Footer logos - no longer in use
-footer .logos img {
-    width: 200px;
-    height: auto;
-    margin: $global-margin (2 * $global-margin) 0 0;
-    box-shadow: none;
-    border: 0;
-}  
-*/
-
 .img-link {
     border: none;
 }
 
-p.neh-text {
-    font-weight: 100;
-    font-size:.75rem;
-    font-style: italic;
-}
-.contact {
-    text-align:right;
-}
 .center {
     text-align: center;
 }
@@ -209,8 +151,72 @@ p.neh-text {
     max-width:90%;
 }
 
+/*About page styles */
+
 .neh-logo{
-    margin: 1em;
-    width: 50%;
+    max-width: 50%;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.neh-text {
+    font-weight: 100;
+    font-size:.75rem;
+    font-style: italic;
+}
+
+.member {
+    text-align: center;
+    padding:1rem .25rem 0 .25rem;
+}
+
+.board {
+    text-align: center;
+}
+
+.board p {
+    font-weight: 400;
+}
+
+/*Footer styles*/
+
+.contact {
+    text-align:right;
+}
+
+footer {
+    border-top:1px solid #B963A7;
+    padding:2rem 0;
+    margin-top:2rem;
+    margin-left: 16.66667%;
+    margin-right: 16.66667%;
+}
+
+/* Footer logos - no longer in use
+footer .logos img {
+    width: 200px;
     height: auto;
+    margin: $global-margin (2 * $global-margin) 0 0;
+    box-shadow: none;
+    border: 0;
+}  
+*/
+
+/*Table of Contents*/
+
+#toc ul { 
+    list-style-type: square; 
+  }
+
+  #toc li {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+/*List of pages within a page as used in List default*/
+
+#pagelist a{
+    font-weight:400;
 }

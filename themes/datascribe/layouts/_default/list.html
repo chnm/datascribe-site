@@ -6,15 +6,23 @@
        <h1 class="page">{{ .Title }}</h1> 
 
         {{ .Content }}
-
-        <ul>
-            <!-- Ranges through content/posts/*.md -->
+            <!-- Ranges through content/posts/*.md as paragraphs -->
+            <div id="pagelist">
             {{ range .Pages }}
-                <li>
-                    <a href="{{.Permalink}}">{{.Title}}</a>, {{.Summary}}
-                </li>
+                   <p><a href="{{.Permalink}}">{{.Title}}</a>: {{.Summary}}</p>
             {{ end }}
+            </div>
+
+            <hr>
+
+        <!-- Ranges through content/posts/*.md -->
+          <div id="pagelist">
+            <ul>
+            {{ range .Pages }}
+              <li><a href="{{.Permalink}}">{{.Title}}</a>, {{.Summary}}</li>
+             {{ end }}
             </ul>
+            </div>
     </div>  
   </div>
 </div>
