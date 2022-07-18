@@ -1,14 +1,18 @@
-<div class="grid-container.nav">
+
     <a href="#content" class="show-on-focus">Skip to main content</a>
     <header>
-      <nav>
-        <a href="/"><img src="{{ .Site.BaseURL }}img/datascribe-logo-sm.jpg" alt="Logo for DataScribe" class="navlogo"></a>
-        <ul class="menu">
-          <li><a href="/support">Support</a></li>
-          <li><a href="/resources">Resources</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-
-      </nav>
+      <div class="columns">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+          <a href="#">Item 1</a>
+          <ul class="menu">
+            <li><a href="#">Item 1A</a></li>
+            <!-- ... -->
+          </ul>
+        </li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+        <li><a href="#">Item 4</a></li>
+      </ul>
+    </div>
     </header>
-  </div>
