@@ -98,6 +98,10 @@ a {
     margin-bottom: 1rem;
 } */
 
+.dropdown.menu a{
+    font-weight: 400;
+}
+
 .bar {
     background-color: #fff;
     text-align:center;
@@ -105,6 +109,8 @@ a {
 }
 .bar img {
     max-width:90%;
+    min-width: 40%;
+    padding-top:20px;
 }
 @media screen and (min-width: 40em) {
 .bar img {
@@ -171,7 +177,6 @@ p.neh-text {
     text-align: center;
 }
 
-}
 .button {
     margin-bottom: 1.5rem;
     background-color:#B963A7;
