@@ -1,7 +1,15 @@
 ---
 title: "Case Studies"
 type: page
+toc: true
 summary: "Examples of projects using DataScribe"
+projects:
+- title: "Religious Ecologies"
+  desc: "American history large dataset complex rah rah rah"
+- title: "Death by Numbers"
+  desc: "European history large dataset complex rah rah rah"
+- title: "1950s Census"
+  desc: "American history etc etc etc"
 ---
 
 These case studies are offered as holistic models of a project using DataScribe, including public projects using DataScribe and internal case study work.

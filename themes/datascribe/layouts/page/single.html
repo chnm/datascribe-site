@@ -5,6 +5,15 @@
     <div class="medium-8 cell medium-offset-2">
        <h1 class="page">{{ .Title }}</h1> 
 
+      {{ with .Params.projects }}
+      <h3>Table of Contents</h3>
+      {{ end }}
+      <ul class="toc__cases">
+      {{ range .Params.projects }}
+      <li><a href="#{{ urlize .title }}">{{ .title }}</a>: {{ .desc }} </li>
+      {{ end }}
+      </ul>
+
         {{ .Content }}
 
 </div>
