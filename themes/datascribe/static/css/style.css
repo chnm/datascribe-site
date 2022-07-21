@@ -54,6 +54,12 @@ p.four-hundred {
     font-weight:400;
 }
 
+/*Lists */
+
+ul{
+    margin-left: 2.5rem;
+}
+
 li{
     font-weight: 390;
     font-size: 1.20rem;
@@ -190,6 +196,11 @@ footer {
     margin-right: 16.66667%;
 }
 
+.footer-text p {
+    font-size: 1rem;
+}
+
+
 /* Footer logos - no longer in use
 footer .logos img {
     width: 200px;
@@ -213,6 +224,6 @@ footer .logos img {
 
 /*List of pages within a page as used in List default*/
 
-#pagelist a{
+.pagelist a{
     font-weight:400;
 }

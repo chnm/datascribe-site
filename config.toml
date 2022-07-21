@@ -8,5 +8,5 @@ copyright = "CC-BY-NC 4.0 Roy Rosenzweig Center for History and New Media, 2020-
 [markup]
   [markup.tableOfContents]
     endLevel = 2
-    ordered = false
+    ordered = true
     startLevel = 2

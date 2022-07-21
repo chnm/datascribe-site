@@ -4,8 +4,6 @@ type: page
 summary: "How to set up everything you need to start working with DataScribe"
 ---
 
-How to set up everything you need to start working with DataScribe.
-
 *Download* this information as a PDF.
 
 In order to work with DataScribe you need to have a web hosting service or web space which meets the [system requirements for Omeka](https://omeka.org/s/docs/user-manual/install/#system-requirements).
