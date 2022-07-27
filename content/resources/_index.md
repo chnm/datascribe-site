@@ -3,4 +3,4 @@ title: "Resources"
 type: list
 ---
 
-Resources for working with DataScribe
+The following are different resources to help you work with DataScribe.

@@ -211,17 +211,6 @@ footer .logos img {
 }  
 */
 
-/*Table of Contents*/
-
-#toc ul { 
-    list-style-type: square; 
-  }
-
-  #toc li {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-
 /*List of pages within a page as used in List default*/
 
 .pagelist a{

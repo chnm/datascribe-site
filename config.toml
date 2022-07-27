@@ -4,9 +4,3 @@ title = "DataScribe"
 theme = "datascribe"
 relativeurls = true
 copyright = "CC-BY-NC 4.0 Roy Rosenzweig Center for History and New Media, 2020-{year}"
-
-[markup]
-  [markup.tableOfContents]
-    endLevel = 2
-    ordered = true
-    startLevel = 2
