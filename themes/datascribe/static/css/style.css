@@ -17,7 +17,7 @@ h1.page {
     text-align:center;
     color:#4B66B0;
     width:100%;
-    margin-top:2rem;
+    margin-top:1rem;
     line-height: normal;
     text-indent: 0px;
     font-size:3rem;
@@ -54,6 +54,12 @@ p.four-hundred {
     font-weight:400;
 }
 
+/*Lists */
+
+ul{
+    margin-left: 2.5rem;
+}
+
 li{
     font-weight: 390;
     font-size: 1.20rem;
@@ -67,19 +73,6 @@ li{
 a {
     color:#4B66B0;
     border-bottom: 1px solid #4B66B0;
-}
-
-.member {
-    text-align: center;
-    padding:1rem .25rem 0 .25rem;
-}
-
-.board {
-    text-align: center;
-}
-
-.board p {
-    font-weight: 400;
 }
 
 /* .sticky-container {
@@ -98,6 +91,10 @@ a {
     margin-bottom: 1rem;
 } */
 
+.dropdown.menu a{
+    font-weight: 400;
+}
+
 .bar {
     background-color: #fff;
     text-align:center;
@@ -105,6 +102,8 @@ a {
 }
 .bar img {
     max-width:90%;
+    min-width: 40%;
+    padding-top:20px;
 }
 @media screen and (min-width: 40em) {
 .bar img {
@@ -112,25 +111,82 @@ a {
 }
 }
 
+.navlogo {
+    padding: 10px;
+    margin-left: 10px;
+    float: left;
+}
 
+.img-link {
+    border: none;
+}
 
-/* .top-bar-right ul {
-    margin:.5rem 0;
+.center {
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 1.5rem;
+    background-color:#B963A7;
     font-size:1.5rem;
-    margin-left:41%;
-} */
+}
 
-/* .is-selected {
-    border-bottom:1px solid #B963A7;
-} */
+.button:hover, .button:active, .button:focus {
+    background-color:#A85A98;
+}
 
-/* .anchor {
-    scroll-margin-top:362px;
-} */
+@media screen and (min-width: 40em) {
+    .grid-container {
+        padding-top:2rem;
+    }
+}
 
-/* #where, #who {
+.large-p {
+    font-size:2rem
+}
+
+/* .grid-container.nav{
     padding-top:1rem;
 } */
+
+.page{
+    max-width:90%;
+}
+
+/*About page styles */
+
+.neh-logo{
+    max-width: 50%;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.neh-text {
+    font-weight: 100;
+    font-size:.75rem;
+    font-style: italic;
+}
+
+.member {
+    text-align: center;
+    padding:1rem .25rem 0 .25rem;
+}
+
+.board {
+    text-align: center;
+}
+
+.board p {
+    font-weight: 400;
+}
+
+/*Footer styles*/
+
+.contact {
+    text-align:right;
+}
 
 footer {
     border-top:1px solid #B963A7;
@@ -139,6 +195,11 @@ footer {
     margin-left: 16.66667%;
     margin-right: 16.66667%;
 }
+
+.footer-text p {
+    font-size: 1rem;
+}
+
 
 /* Footer logos - no longer in use
 footer .logos img {
@@ -150,57 +211,8 @@ footer .logos img {
 }  
 */
 
-.img-link {
-    border: none;
-}
+/*List of pages within a page as used in List default*/
 
-p.neh-text {
-    font-weight: 100;
-    font-size:.75rem;
-    font-style: italic;
-}
-.contact {
-    text-align:right;
-}
-.center {
-    text-align: center;
-}
-
-}
-.button {
-    margin-bottom: 1.5rem;
-    background-color:#B963A7;
-    font-size:1.5rem;
-}
-
-.button:hover, .button:active, .button:focus {
-    background-color:#A85A98;
-}
-
-.grid-container {
-    padding-top:2rem;
-}
-
-@media screen and (min-width: 40em) {
-    .grid-container {
-        padding-top:4rem;
-    }
-}
-
-.large-p {
-    font-size:2rem
-}
-
-.grid-container.nav{
-    padding-top:1rem;
-}
-
-.page{
-    max-width:90%;
-}
-
-.neh-logo{
-    margin: 1em;
-    width: 50%;
-    height: auto;
+.pagelist a{
+    font-weight:400;
 }

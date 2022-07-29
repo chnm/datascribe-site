@@ -1,5 +1,7 @@
 ---
-title: "Get Started"
+title: "Project planning"
+type: page
+summary: "Questions to ask and things to consider before you start building your DataScribe projects."
 ---
 
 In order to start working with DataScribe, you will need:
@@ -14,10 +16,10 @@ Things you need to decide:
 
 - How many forms do you want to build?
 - What is the relationship between your sources and the dataset you want to build?
-    - If you were working with an address book, you might want each contact to be a record - a row in the final export. Not all sources will be this straightforward.
+  - If you were working with an address book, you might want each contact to be a record - a row in the final export. Not all sources will be this straightforward.
 - What information do you need or want to capture from each kind of item and for each kind of record?
 
-The following articles and tutorials can help you think through these decisions. 
+The following articles and tutorials can help you think through these decisions.
 
 - Greta Swain, ["Deploying datascribe to create a new dataset for American Religious History,"](https://religiousecologies.org/blog/deploying-datascribe-to-create-a-new-dataset-for-american-religious-history/) *American Religious Ecologies* (blog), April 16, 2021.
 
@@ -29,7 +31,7 @@ DataScribe works with the items and items sets in your Omeka S install. You will
 
 DataScribe uses existing Omeka S [item sets](https://omeka.org/s/docs/user-manual/content/item-sets/) as the basis for datasets.
 
-Datasets are a group of historical documents with the same data framework (table structure, set of rows and columns, etc). A dataset might capture all of the information recorded on a historical document, or only part of the document. Each dataset has one transcription form. 
+Datasets are a group of historical documents with the same data framework (table structure, set of rows and columns, etc). A dataset might capture all of the information recorded on a historical document, or only part of the document. Each dataset has one transcription form.
 
 You will need to create a unique item set for each form type you intend to create. For example, if you have data with variations over time - like the Bills of Mortality or the US Census - you will need to create different item sets for each variation in the form which you want to capture.
 
@@ -52,7 +54,3 @@ The DataScribe transcription interface currently supports:
 - 'image/svg+xml'
 
 If you have tiff or pdf images, you will need to convert them to one of the above formats.
-
-## Further Assistance
-
-For technical support, consult the [user manual](https://github.com/chnm/Datascribe-module/wiki), file [an issue on GitHub](https://github.com/chnm/Datascribe-module/issues), or ask a question on the [Omeka forum](https://forum.omeka.org/c/omeka-s/modules/22).
