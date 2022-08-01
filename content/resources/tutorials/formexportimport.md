@@ -24,17 +24,17 @@ The default title for the exported form is `form_export`. If you plan on using t
 
 ## Import the dataset form
 
-To import, I’ll start by making a new dataset. 
+To import, I’ll start by making a new dataset.
 
-On the new dataset form, there’s an option to Import form. 
+On the new dataset form, there’s an option to Import form.
 
 I’ll click to import and find the form we just saved.
 
-Now I’ll fill out the other required information to create this dataset. 
+Now I’ll fill out the other required information to create this dataset.
 
 After I click add to save the new dataset
 
-We can navigate to the dataset’s form and see that it exactly matches what we exported. 
+We can navigate to the dataset’s form and see that it exactly matches what we exported.
 
 At this point I can use the form as-is. I can also add, delete, or modify fields as needed for this particular dataset.
 
