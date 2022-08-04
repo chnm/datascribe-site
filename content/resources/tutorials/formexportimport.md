@@ -40,6 +40,6 @@ At this point I can use the form as-is. I can also add, delete, or modify fields
 
 ## Screencast
 
-This screencast walks through the process of exporting and importing a dataset form. Click on the still below to watch the screen cast (opens in a new window).
+This screencast walks through the process of exporting and importing a dataset form.
 
-[![Still from the export and import tutorial screencast Watch screencast.](/tutorials/FormImportExport-Thumb.png) Watch screencast.](/tutorials/FormImportExport.mp4)
+{{< video src="/tutorials/FormImportExport.mp4" >}}
