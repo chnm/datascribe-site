@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: Resources
 type: list
 ---
 
