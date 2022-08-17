@@ -10,9 +10,11 @@ For this process, you will need:
 - the [CSV Import module](https://omeka.org/s/docs/user-manual/modules/csvimport/#column-options) for Omeka S;
 - an understanding of Omeka S [items](https://omeka.org/s/docs/user-manual/content/items/) and [resource templates](https://omeka.org/s/docs/user-manual/content/resource-template/).
 
-{discussion of pre work goes here} In this example, transcribers are supposed to use the semicolon to separate the names of streets on each census sheet. This should allow us to use the "multivalue separator" option in the CSV import. However, there is of course the chance that a transcriber will forget and use a comma. For that reason you might want to use a more distinct separator or do manual separation before importing (see below).
+**{discussion of pre work goes here}** In this example, transcribers are supposed to use the semicolon to separate the names of streets on each census sheet. This should allow us to use the "multivalue separator" option in the CSV import. However, there is of course the chance that a transcriber will forget and use a comma. For that reason you might want to use a more distinct separator or do manual separation before importing (see below).
 
 **Note** This mapping process described here will only work when importing the exported data into the *same* Omeka S installation where the DataScribe transcription has taken place.
+
+The screenshots in this example are all of 1950 Census data using the Census Sheet Data form[(download json file)](/tutorials/censusSheetDataForm.json), importing into items using the Census Items resource template [(download json file)](/tutorials/censusDocumentTemplate.json). If you want to run a test using these resources, download the linked jsons and a selection of pages from the [1950 Census website](https://1950census.archives.gov). Create a dataset with the form and transcribe at least three sheets (items).
 
 ## Add exported data to existing items
 
@@ -28,7 +30,7 @@ Also make sure you have a template for incoming information, or at least you kno
 
 ### Get and review CSV
 
-In the dataset you're using, go to the "More actions" dropdown in the upper right corner of the browser window. 
+In the dataset you're using, go to the "More actions" dropdown in the upper right corner of the browser window.
 
 First choose the "Validate export" option. Exports must be validated before they are run.
 
@@ -36,7 +38,7 @@ If the validation goes smoothly, re-open the "More actions" dropdown and select 
 
 Open the csv file to ensure that it is complete and that all of the rows have the proper formatting. 
 
-If you want to split the data in some of the rows into separate columns, you can do so here. Some csv reading software (Google Sheets, Excel) will split text into columns at specific punctuation marks. This is an alternative to using the multi-value separator option in the csv import. 
+If you want to split the data in some of the rows into separate columns, you can do so here. Some csv reading software (Google Sheets, Excel) will split text into columns at specific punctuation marks. This is an alternative to using the multi-value separator option in the csv import.
 
 ### Import
 
@@ -46,9 +48,9 @@ It is very helpful to add a comment saying what you are importing. Comments disp
 
 #### Map csv columns
 
-When mapping columns to Omeka S data, it may be be useful to have written which column heading maps to which property in Omeka S for reference when setting these options. If you have created a template for the data, having the template open in another window or having a screenshot as reference is also a good choice. 
+When mapping columns to Omeka S data, it may be be useful to have written which column heading maps to which property in Omeka S for reference when setting these options. If you have created a template for the data, having the template open in another window or having a screenshot as reference is also a good choice.
 
-If you decided to use the multi-value option, you will need to indicate that in the mapping options for that column. Click the wrench icon and ensure that the "use multivalue separator" box is checked. 
+If you decided to use the multi-value option, you will need to indicate that in the mapping options for that column. Click the wrench icon and ensure that the "use multivalue separator" box is checked.
 
 If you have the Numeric Data Types module installed, you can import any date or datetime data fields in timestamp format.
 
@@ -60,15 +62,23 @@ Once you are in options, go to the advanced settings. You want to choose "Append
 
 #### Advanced import settings
 
-Once you are in options, go to the advanced settings. You want to choose "Append data to the resource: Add new data to the resource, based on an identifier for an existing resource. (Cannot be undone.)" For the identifier column, chose the Omeka Item # column. The identifier property is "internal ID" (meaning the Omeka S item ID).
+In the advanced settings tab, use the Import type dropdown to choose: "Append data to the resource: Add new data to the resource, based on an identifier for an existing resource. (Cannot be undone.)"
+
+For the identifier column, chose the Omeka Item # column. This column is automatically created by DataScribe in the export. For the identifier property, choose "internal ID" (meaning the Omeka S item ID).
+
+### Verify the import
+
+Once the import is complete, open at least one of the Omeka S items you know were part of the item set which populated the dataset. Check to make sure that the information has been properly mapped and imported. 
+
+Remember that if the import had errors you will have to *manually* remove the bad data. Imports which append data cannot be undone.
 
 ## Variations
 
-The following options have 
+In addition to updating Omeka S items with information, one row in the exported csv per Omeka S item, there are other possible approaches. These are suggestions about how you might modify the above tutorial to run these sorts of import updates.
 
 ### Add multiple records to one item
 
-Text goes here.
+**Text goes here.**
 
 ### Add records as new items
 
