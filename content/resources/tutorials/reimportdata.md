@@ -76,9 +76,25 @@ Remember that if the import had errors you will have to *manually* remove the ba
 
 In addition to updating Omeka S items with information, one row in the exported csv per Omeka S item, there are other possible approaches. These are suggestions about how you might modify the above tutorial to run these sorts of import updates.
 
+These examples use transcription of [The Liverpool Directory for the Year 1766](https://archive.org/details/liverpooldirect00unkngoog/mode/2up?view=theater&ui=embed&wrapper=false), with a form that has fields for name, occupation, location, and location modifier.
+
 ### Add multiple records to one item
 
-**Text goes here.**
+This course of action should be undertaken only after serious consideration. If there are multiple rows per item *and* multiple fields in your form, you will lose the connection between the data in each row. However, you can use this to populate properties in the Omeka S item to create a sort of searchable index of content.
+
+Follow the directions as given above, this time using a csv where there are multiple records per item.
+
+In this instance, we have imported the names and locations from the *Directory* into the properites "has part" and "spatial coverage", respectively.
+
+{{< figure src="/tutorials/reimportDST-Var1a.png" alt="Screenshot of a csv file with three rows of data. There are columsn for Omeka S Item, DatatScribe Item ID, Name, Occupation, and Location" class="docimg" >}}
+
+This image shows the mapping tab in the csv import module:
+
+{{< figure src="/tutorials/reimportDST-Var1b.png" alt="In the mapping tab, there are only two properties mapped. Name is linked to Has Part. Location is mapped to Spatial Coverage" class="docimg">}}
+
+This shows how those rows have become inputs in the metadata of the original item. Note that there is no clear way to connect the peoples' names with the street names.
+
+![An Omeka S item with three values for the properties 'Has Part' and 'Spatial Coverage'. The values are the same data from the rows in the image of the csv](/tutorials/reimportDST-Var1c.png)
 
 ### Add records as new items
 

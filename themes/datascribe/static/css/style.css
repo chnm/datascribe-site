@@ -232,3 +232,11 @@ footer .logos img {
 video.video-embed {
   max-width: 100%;
 }
+
+/*Image styling for resource pages*/
+
+.docimg img{
+    border-style: solid;
+    border-width: thin;
+    border-color: #999;
+}
