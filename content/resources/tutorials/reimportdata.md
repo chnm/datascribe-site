@@ -22,9 +22,9 @@ The example in this tutorial has a one to one correlation between the record and
 
 ### Prepartion
 
-Be mindful of possible post-processing work when creating the guidelines and form. 
+Be mindful of possible post-processing work when creating the guidelines and form.
 
-In this example, transcribers are supposed to use the semicolon to separate the names of streets on each census sheet. This should allow us to use the "multi-value separator" option in the CSV import. However, there is of course the chance that a transcriber will forget and use a comma. For that reason you might want to use a more distinct separator or do manual separation before importing (see below). 
+In this example, transcribers are supposed to use the semicolon to separate the names of streets on each census sheet. This should allow us to use the "multi-value separator" option in the CSV import. However, there is of course the chance that a transcriber will forget and use a comma. For that reason you might want to use a more distinct separator or do manual separation before importing (see below).
 
 Also make sure you have a template for incoming information, or at least you know what properties you want to use. This example we've created an extended census documents template with additional properties for all of the fields in the DataScribe form. Note that there is also a property in the template for the DataScribe item number.
 
@@ -36,7 +36,7 @@ First choose the "Validate export" option. Exports must be validated before they
 
 If the validation goes smoothly, re-open the "More actions" dropdown and select "Export dataset." Once the export is complete, you can scroll down to the end of the right-hand drawer. Use right-click or a similar option on the "download dataset" link to save the csv file to your computer.
 
-Open the csv file to ensure that it is complete and that all of the rows have the proper formatting. 
+Open the csv file to ensure that it is complete and that all of the rows have the proper formatting.
 
 If you want to split the data in some of the rows into separate columns, you can do so here. Some csv reading software (Google Sheets, Excel) will split text into columns at specific punctuation marks. This is an alternative to using the multi-value separator option in the csv import.
 
@@ -68,9 +68,13 @@ For the identifier column, chose the Omeka Item # column. This column is automat
 
 ### Verify the import
 
-Once the import is complete, open at least one of the Omeka S items you know were part of the item set which populated the dataset. Check to make sure that the information has been properly mapped and imported. 
+Once the import is complete, open at least one of the Omeka S items you know were part of the item set which populated the dataset. Check to make sure that the information has been properly mapped and imported.
 
 Remember that if the import had errors you will have to *manually* remove the bad data. Imports which append data cannot be undone.
+
+## Screencast
+
+This screencast demonstrates the process outlined above.
 
 ## Variations
 
@@ -94,7 +98,7 @@ This image shows the mapping tab in the csv import module:
 
 This shows how those rows have become inputs in the metadata of the original item. Note that there is no clear way to connect the peoples' names with the street names.
 
-![An Omeka S item with three values for the properties 'Has Part' and 'Spatial Coverage'. The values are the same data from the rows in the image of the csv](/tutorials/reimportDST-Var1c.png)
+{{< figure src="/tutorials/reimportDST-Var1c.png" alt="An Omeka S item with three values for the properties 'Has Part' and 'Spatial Coverage'. The values are the same data from the rows in the image of the csv" class="docimg">}}
 
 ### Add records as new items
 
@@ -105,3 +109,11 @@ If you wanted to create new items from your DataScribe export, you could modify 
 
   - Map the `Omeka S Item #` column to a property like `Is Part Of` so that it will appear in the new item's metadata.
   - Use the options for the mapping to set the data type to "Import as Omeka S resource ID".
+
+In this example, the data has been imported as new items. The `Omeka S Item #` column has been mapped to `Is Part Of` and in the column options, the datatype has been set to "Omeka resource (by ID)".
+
+{{< figure src="/tutorials/reimportDST-Var2a.png" alt="Mapping tab of csv import module with settings as described." class="docimg" >}}
+
+This import created three new items. As you can see from this item, created in the import, the `Is Part of Property` has for its value the Omeka item for the page on which this data appears in the original document.
+
+{{< figure src="/tutorials/reimportDST-Var2b.png" alt="item with plain text metadata for title, description, and spatial coverage. The metadata for Is Part Of is a link to a different Omeka item." class="docimg" >}}
