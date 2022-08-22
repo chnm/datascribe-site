@@ -4,7 +4,8 @@
 
     <div class="medium-8 cell medium-offset-2 small-offset-1">
        <h1 class="page">{{ .Title }}</h1> 
-      <p>{{.Summary}}</p>
+       <hr width="100%">
+
 
       {{ with .Params.projects }}
       <h3>Table of Contents</h3>
@@ -14,7 +15,6 @@
       <li><a href="#{{ urlize .title }}">{{ .title }}</a>: {{ .desc }} </li>
       {{ end }}
       </ul>
-        <hr width="50%">
         {{ .Content }}
 
 </div>
