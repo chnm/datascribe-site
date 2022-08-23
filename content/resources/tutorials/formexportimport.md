@@ -24,22 +24,20 @@ The default title for the exported form is `form_export`. If you plan on using t
 
 ## Import the dataset form
 
-To import, I’ll start by making a new dataset.
+You can *only* import an existing for when creating a new dataset.
 
-On the new dataset form, there’s an option to Import form.
+Create a new dataset which will use the same form. Add information for the title (required) and select an item set to use. If you do not add guidelines when creating the dataset, be sure to add some in the future.
 
-I’ll click to import and find the form we just saved.
+Towards the bottom of the Add Dataset form, there is an option to import a form. Click the button. Then, using your browser's file manager, find the form file you have already downloaded.
 
-Now I’ll fill out the other required information to create this dataset.
+Be sure to save.
 
-After I click add to save the new dataset
+Click "Add new dataset."
 
-We can navigate to the dataset’s form and see that it exactly matches what we exported.
-
-At this point I can use the form as-is. I can also add, delete, or modify fields as needed for this particular dataset.
+When you go in to edit your new dataset, you should now see the form you imported. From here, you can also add, delete, or modify fields as needed for this specific dataset.
 
 ## Screencast
 
 This screencast walks through the process of exporting and importing a dataset form.
 
-{{< video src="/tutorials/FormImportExport.mp4" >}}
+{{< video src="/videos/FormImportExport.mp4" >}}
