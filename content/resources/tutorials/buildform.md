@@ -23,34 +23,6 @@ In [this page](/lessonplans/goresliverpooldirectory1860_p40.png) from the *Direc
 
 You will be building your form in DataScribe which has a defined set of options for fields.
 
-- Checkbox
-  - Input type: checkbox
-  - Options: Set box checked by default
-- Date
-  - Input: Select year, month, and day in a series of dropdown menus.
-  - Options:
-- DateTime
-  - Input: Select year, month, day, hour, minute and second from a series of dropdown menus.
-  - Options:
-- Number
-  - Input: Numbers only. Decimals permitted with a point but not a comma.
-  - Options:
-- Radio
-  - Input: Click a radio button
-  - Options:
-- Select
-  - Input: Select from a dropdown menu
-  - Options:
-- Text
-  - Input: Single line text entry
-  - Options:
-- Textarea
-  - Input:
-  - Options:
-- Time
-  - Input: Select hour, minute and second from a series of dropdown menus.
-  - Options:
-
 |Field |Input type |Options|
 --- | --- | --- |
 |Checkbox |Checkbox | Set box checked by default|
@@ -62,3 +34,26 @@ You will be building your form in DataScribe which has a defined set of options 
 |Text|Single line text entry|Set a minimum or maximum length|
 |Textarea|Large text area|Set the number of rows for the field’s height
 Time|Select hour, minute and second from a series of dropdown menus|Set default hour, minute, and/or second|
+
+In addition, you can set any field as required. If a transcriber leaves a required field blank, Datascribe flags that record as invalid.
+
+One field must be designated as the primary field which acts as the identifier for the record.
+
+Use the worksheet or your own document to decide what fields you want to use for when building your form or forms. Bear in mind that you may end up needing to create multiple forms to best caputre data from a source.
+
+One form for the example page could be as follows:
+
+| Data in source | Field type | Optional settings | Notes |
+|---|---|---|---|
+| Page number (R) | Number | Max = # of pages in directory | Is this necessary? |
+| "Name (R, P)" | Text |  | Separate into first and last? Or one field for both? |
+| Listing type | Select or radio |  | "Individual, business, organization, etc" |
+| Descriptor | Textarea |  | "Indicate to write as given in the directory, so “insurance agents” or “jun. tobacconist”" |
+| Street number | Number |  | If given |
+| Street name | Text |  | Can concatenate with number in export |
+| Area | Text or select |  | Is this standardized enough to make a select field? |
+
+Note: Required fields marked with R. Primary fields marked with P.
+
+## Step three: build a form using your plan
+
