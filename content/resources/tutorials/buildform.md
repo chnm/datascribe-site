@@ -17,13 +17,48 @@ Before you start creating your form in DataScribe, look through the source and a
 
 Go through the original source. Write down all of the possible data points on the page. Then decide which ones are relevant to your questions and therefore need to be included on your form(s).
 
-In this example of a page from the *Directory*, there are at least 11 potential data points: page number, last name, first name, listing type (person, business, etc), description, street number, street name, other address information, second address street number, second address street name, other information for second address. How you organize these is up to you and can be guided by your research questions. 
+In [this page](/lessonplans/goresliverpooldirectory1860_p40.png) from the *Directory*, there are at least 11 potential data points: page number, last name, first name, listing type (person, business, etc), description, street number, street name, other address information, second address street number, second address street name, other information for second address. How you organize these is up to you and can be guided by your research questions.
 
 ## Step two: match data points and form fields
 
 You will be building your form in DataScribe which has a defined set of options for fields.
 
 - Checkbox
-   - Input: Checkbox
-   - Options: Set box checked by default
+  - Input type: checkbox
+  - Options: Set box checked by default
+- Date
+  - Input: Select year, month, and day in a series of dropdown menus.
+  - Options:
+- DateTime
+  - Input: Select year, month, day, hour, minute and second from a series of dropdown menus.
+  - Options:
+- Number
+  - Input: Numbers only. Decimals permitted with a point but not a comma.
+  - Options:
+- Radio
+  - Input: Click a radio button
+  - Options:
+- Select
+  - Input: Select from a dropdown menu
+  - Options:
+- Text
+  - Input: Single line text entry
+  - Options:
+- Textarea
+  - Input:
+  - Options:
+- Time
+  - Input: Select hour, minute and second from a series of dropdown menus.
+  - Options:
 
+|Field |Input type |Options|
+--- | --- | --- |
+|Checkbox |Checkbox | Set box checked by default|
+|Date|Select year, month, and day in a series of dropdown menus|Set minimum and maximum year. Set default year, month, and/or day|
+|DateTime|Select year, month, day, hour, minute and second from a series of dropdown menus|Set minimum and maximum year. Set default year, month, day, hour, minute, and/or second|
+|Number|Numbers only. Decimals permitted with a point but not a comma.|Set minimum and maximum value.|
+|Radio|Click a radio button|Enter options for the radio button by entering each one on a new line|
+|Select|Select from a dropdown menu|Enter options for the select button by entering each one on a new line|
+|Text|Single line text entry|Set a minimum or maximum length|
+|Textarea|Large text area|Set the number of rows for the field’s height
+Time|Select hour, minute and second from a series of dropdown menus|Set default hour, minute, and/or second|
