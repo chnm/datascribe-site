@@ -23,3 +23,9 @@ In the following case study we describe how the [American Religious Ecologies pr
 This [project](https://deathbynumbers.org) transcribe and publish the information in the London Bills of Mortality from the sixteenth through the eighteenth centuries into a dataset suitable for computational analysis.
 
 Read more about the processes and procedures used by the Death by Numbers team in their blog posts in the categories for [transcription](https://deathbynumbers.org/tag/transcription/) and [metadata](https://deathbynumbers.org/tag/metadata/)
+
+---
+
+## Plague in Iqueque
+
+This case study by Hernan Adasme.
