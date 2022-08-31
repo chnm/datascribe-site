@@ -46,8 +46,8 @@ One form for the example page could be as follows:
  Data in source | Field type | Optional settings | Notes
 :---------------|:---|:---|:---
  "Name (R, P)"   | Text   |  | Separate into first and last? Or one field for both?
- Listing type    | Select or radio |  | "Individual, business, organization, etc"
- Descriptor      | Textarea        |  | "Indicate to write as given in the directory, so “insurance agents” or “jun. tobacconist”"
+ Listing type    | Select or radio | Create a dropdown of controlled options like individual, business, organization, other | |
+ Descriptor      | Textarea        |  | Indicate to write as given in the directory, so “insurance agents” or “jun. tobacconist”"
  Street number  | Number          |  | If given
  Street name     | Text            |  | Can concatenate with number in export
  Area            | Text or select  |  | Is this standardized enough to make a select field?
