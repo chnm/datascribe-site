@@ -8,9 +8,19 @@ projects:
   desc: "A large-scale project using early twentieth-century religious census data to create open datasets and visualizations."
 - title: "Death by Numbers"
   desc: "A project transcribing the London Bills of Mortality (16th-18th centuries)."
+- title: "Plague in Iqueque"
+  desc: "This case study examines how to transcribe non-tabular or semi-structured data using DataScribe."
+- title: "Peste Bubónica en Iquique, 1903"
+  desc: "Este caso de estudio examina el proceso de transcripción de datos no tabulares o semi estructurados usando DataScribe."
+---
+
+Suggested citation style: Author names, "Title of Case Study," *DataScribe.tech*, 2022, < full uri >.
+
 ---
 
 ## Religious Ecologies
+
+Written by Greta Swain
 
 In the following case study we describe how the [American Religious Ecologies project](https://religiousecologies.org/) at the Roy Rosenzweig Center for History and New Media utilized DataScribe to transcribe tabular data from early twentieth-century digitized census forms in order to create a new dataset for American religious history. Because DataScribe was still under development when our team started transcription, we first used a basic spreadsheet structure for transcription and transitioned to DataScribe mid-way through the project. In this study, we will provide an overview of the American Religious Ecologies project and the sources we used. We will also detail the process of digitizing and readying our sources for transcription, the transition from using spreadsheets to using DataScribe for transcription, the workflows we developed for transcribing and reviewing, DataScribe as a project management tool, the final format of the data coming out of DataScribe, and the questions and visualizations this new dataset enabled. Finally, we discuss the decisions we made along the way. In total, this study will give you a better sense of how DataScribe was used by a diverse team at a University-based research center, and how it became a critical part of our efforts to transcribe thousands of sources, create new datasets and asynchronously manage a large-scale transcription project.
 
@@ -20,12 +30,20 @@ In the following case study we describe how the [American Religious Ecologies pr
 
 ## Death by Numbers
 
+Written by Daniel Howlett and Emily Meyers
+
 This [project](https://deathbynumbers.org) transcribe and publish the information in the London Bills of Mortality from the sixteenth through the eighteenth centuries into a dataset suitable for computational analysis.
 
 Read more about the processes and procedures used by the Death by Numbers team in their blog posts in the categories for [transcription](https://deathbynumbers.org/tag/transcription/) and [metadata](https://deathbynumbers.org/tag/metadata/)
 
 ---
 
-## Plague in Iqueque
+## Plague in Iquique, 1903: Transcribing non-tabular data using DataScribe
 
-This case study by Hernan Adasme.
+Written by Hernan Adasme
+
+This case study examines how to transcribe non-tabular or semi-structured data using DataScribe. The analysis starts with an historical overview of the project Plague in Iquique, 1903, followed by description of the sources used. Then, the case study details the process of organizing and translating the sources into separate Omeka items that can be used to create a DataScribe project in the DataScribe module. Next, the case study walks the reader through the process creating a transcription form that captures information that suits the historical questions posed over the sources. Finally, the case study delves into how the data is being recorded in DataScribe, and some possible research paths that a DataScribe dataset allows historians to pursue.
+
+## Peste Bubónica en Iquique, 1903: Transcripción de datos no tabulares usando DataScribe
+
+Este caso de estudio examina el proceso de transcripción de datos no tabulares o semi estructurados usando DataScribe. El análisis comienza con una descripción general del proyecto *Peste Bubónica en Iquique 1903*, para luego llevar a cabo una caracterización de las fuentes utilizadas. A continuación, el estudio detalla el proceso de organización de las fuentes en ítems de Omeka S para ser usados para crear un proyecto DataScribe en el módulo DataScribe. Posteriormente, el estudio guía el proceso de creación de un formulario de transcripción destinado a capturar información de interés, a propósito de las preguntas históricas planteadas sobre las fuentes. Finalmente, el estudio profundiza en cómo crear los registros en DataScribe, y en algunos posibles caminos investigativos que DataScribe permite a los investigadores recorrer.
