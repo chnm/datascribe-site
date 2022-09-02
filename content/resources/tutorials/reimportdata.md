@@ -10,8 +10,6 @@ For this process, you will need:
 - the [CSV Import module](https://omeka.org/s/docs/user-manual/modules/csvimport/#column-options) for Omeka S;
 - an understanding of Omeka S [items](https://omeka.org/s/docs/user-manual/content/items/) and [resource templates](https://omeka.org/s/docs/user-manual/content/resource-template/).
 
-**{discussion of pre work goes here}** In this example, transcribers are supposed to use the semicolon to separate the names of streets on each census sheet. This should allow us to use the "multivalue separator" option in the CSV import. However, there is of course the chance that a transcriber will forget and use a comma. For that reason you might want to use a more distinct separator or do manual separation before importing (see below).
-
 **Note** This mapping process described here will only work when importing the exported data into the *same* Omeka S installation where the DataScribe transcription has taken place.
 
 The screenshots in this example are all of 1950 Census data using the Census Sheet Data form[(download json file)](/tutorials/censusSheetDataForm.json), importing into items using the Census Items resource template [(download json file)](/tutorials/censusDocumentTemplate.json). If you want to run a test using these resources, download the linked jsons and a selection of pages from the [1950 Census website](https://1950census.archives.gov). Create a dataset with the form and transcribe at least three sheets (items).
@@ -26,7 +24,7 @@ Be mindful of possible post-processing work when creating the guidelines and for
 
 In this example, transcribers are supposed to use the semicolon to separate the names of streets on each census sheet. This should allow us to use the "multi-value separator" option in the CSV import. However, there is of course the chance that a transcriber will forget and use a comma. For that reason you might want to use a more distinct separator or do manual separation before importing (see below).
 
-Also make sure you have a template for incoming information, or at least you know what properties you want to use. This example we've created an extended census documents template with additional properties for all of the fields in the DataScribe form. Note that there is also a property in the template for the DataScribe item number.
+Also make sure you have a template for incoming information, or at least you know what properties you want to use. For this example, we've created an extended census documents template with additional properties for all of the fields in the DataScribe form. Note that there is also a property in the template for the DataScribe item number.
 
 ### Get and review CSV
 
@@ -56,9 +54,9 @@ If you have the Numeric Data Types module installed, you can import any date or 
 
 #### Basic import settings
 
-Basic settings: make sure you select template if using. Also be sure to have your multi-value separator set to the right thing.
+Bearing in mind that you are updating existing items, you can select a new resource template to use.
 
-Once you are in options, go to the advanced settings. You want to choose "Append data to the resource: Add new data to the resource, based on an identifier for an existing resource. (Cannot be undone.)" For the identifier column, chose the Omeka Item # column. The identifier property is "internal ID" (meaning the Omeka S item ID).
+Be sure that the correct symbol is entered for the multi-value separator, if you are using one.
 
 #### Advanced import settings
 
@@ -75,6 +73,8 @@ Remember that if the import had errors you will have to *manually* remove the ba
 ## Screencast
 
 This screencast demonstrates the process outlined above.
+
+----
 
 ## Variations
 

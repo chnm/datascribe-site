@@ -41,13 +41,15 @@ One field must be designated as the primary field which acts as the identifier f
 
 Use the worksheet or your own document to decide what fields you want to use for when building your form or forms. Bear in mind that you may end up needing to create multiple forms to best caputre data from a source.
 
+Download [full worksheet (PDF)](/tutorials/DataScribe_FormWorksheetFull.pdf) or the [only blank form table](/tutorials/DataScribe_FormWorksheetOnly.pdf).
+
 One form for the example page could be as follows:
 
 | Data in source | Field type      | Optional settings | Notes |
-:----------------|:----------------|:------------------|:----- |
+| :----------------|:----------------|:------------------|:----- |
 | "Name (R, P)"  | Text            |                   | Separate into first and last? Or one field for both? |
-| Listing type   | Select or radio |                   | "Individual, business, organization, etc" |
-| Descriptor     | Textarea        |                   | "Indicate to write as given in the directory, so “insurance agents” or “jun. tobacconist”"  |
+| Listing type   | Select or radio | Individual, business, organization, etc  |  |
+| Descriptor     | Textarea        |                   | Indicate to write as given in the directory, so "insurance agents" or "jun. tobacconist"  |
 | Street number  | Number          |                   | If given |
 | Street name    | Text            |                   | Can concatenate with number in export |
 | Area           | Text or select  |                   | Is this standardized enough to make a select field? |
@@ -55,3 +57,9 @@ One form for the example page could be as follows:
 Note: Required fields marked with R. Primary fields marked with P.
 
 ## Step three: build a form using your plan
+
+You can build a form for your dataset when adding or editing the dataset. On the form builder tab, use the plan you wrote as a guide for adding field blocks to the form.
+
+This image shows the form outlined above in the process of being created. The user has saved the form at least once, which is why the `Name` and `Listing type` fields have the right right label instead of just `New field`. The block for descriptor is open to show the guidance which has been added to the field description, as suggested in the notes above.
+
+{{< figure src="/tutorials/buildform-Builder.png" alt="Image as described. The guidance reads 'Write as given in the directory, so “insurance agents” " class="docimg">}}

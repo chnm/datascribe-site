@@ -40,4 +40,4 @@ Back on the records page there is a drop-down menu on the right-side panel under
 
 This screencast walks through the process of transcribing.
 
-{{< video src="/videos/howToTranscribe.mp4" alt="screencase of the above tutorial" >}}
+{{< video src="/videos/howToTranscribe.mp4" alt="screencast of the above tutorial" >}}
