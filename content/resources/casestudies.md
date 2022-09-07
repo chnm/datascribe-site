@@ -44,6 +44,10 @@ Written by Hernan Adasme
 
 This case study examines how to transcribe non-tabular or semi-structured data using DataScribe. The analysis starts with an historical overview of the project Plague in Iquique, 1903, followed by description of the sources used. Then, the case study details the process of organizing and translating the sources into separate Omeka items that can be used to create a DataScribe project in the DataScribe module. Next, the case study walks the reader through the process creating a transcription form that captures information that suits the historical questions posed over the sources. Finally, the case study delves into how the data is being recorded in DataScribe, and some possible research paths that a DataScribe dataset allows historians to pursue.
 
+[Read the full case study (pdf)](/casestudies/Plague_Iquique1903.pdf)
+
 ## Peste Bubónica en Iquique, 1903: Transcripción de datos no tabulares usando DataScribe
 
 Este caso de estudio examina el proceso de transcripción de datos no tabulares o semi estructurados usando DataScribe. El análisis comienza con una descripción general del proyecto *Peste Bubónica en Iquique 1903*, para luego llevar a cabo una caracterización de las fuentes utilizadas. A continuación, el estudio detalla el proceso de organización de las fuentes en ítems de Omeka S para ser usados para crear un proyecto DataScribe en el módulo DataScribe. Posteriormente, el estudio guía el proceso de creación de un formulario de transcripción destinado a capturar información de interés, a propósito de las preguntas históricas planteadas sobre las fuentes. Finalmente, el estudio profundiza en cómo crear los registros en DataScribe, y en algunos posibles caminos investigativos que DataScribe permite a los investigadores recorrer.
+
+[Acceda a la version completa del caso de estudio aquí (pdf)](/casestudies/PesteBubonica_Iquique1903.pdf)
