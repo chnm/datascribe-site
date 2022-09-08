@@ -36,6 +36,8 @@ In the top right and click 'Save And…' either stay on the record if you save p
 
 Back on the records page there is a drop-down menu on the right-side panel under Item Actions for 'Submission Status'. Click on that to select 'Submit For Review' and you are done.
 
+----
+
 ## Screencast
 
 This screencast walks through the process of transcribing.

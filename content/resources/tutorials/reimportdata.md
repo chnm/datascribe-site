@@ -12,7 +12,7 @@ For this process, you will need:
 
 **Note** This mapping process described here will only work when importing the exported data into the *same* Omeka S installation where the DataScribe transcription has taken place.
 
-The screenshots in this example are all of 1950 Census data using the Census Sheet Data form[(download json file)](/tutorials/censusSheetDataForm.json), importing into items using the Census Items resource template [(download json file)](/tutorials/censusDocumentTemplate.json). If you want to run a test using these resources, download the linked jsons and a selection of pages from the [1950 Census website](https://1950census.archives.gov). Create a dataset with the form and transcribe at least three sheets (items).
+The screenshots in this example are primarily from 1950 Census data using the Census Sheet Data form[(download json file)](/tutorials/censusSheetDataForm.json), importing into items using the Census Items resource template [(download json file)](/tutorials/censusDocumentTemplate.json). If you want to run a test using these resources, download the linked jsons and a selection of pages from the [1950 Census website](https://1950census.archives.gov). Create a dataset with the form and transcribe at least three sheets (items).
 
 ## Add exported data to existing items
 
@@ -36,7 +36,11 @@ If the validation goes smoothly, re-open the "More actions" dropdown and select 
 
 Open the csv file to ensure that it is complete and that all of the rows have the proper formatting.
 
-If you want to split the data in some of the rows into separate columns, you can do so here. Some csv reading software (Google Sheets, Excel) will split text into columns at specific punctuation marks. This is an alternative to using the multi-value separator option in the csv import.
+{{< figure src="/tutorials/reimportDST-csvReview.png" alt="Spreadsheet with data from a DataScribe export. There are four rows. The last column of each has multiple values separated by a semicolon." class="docimg" >}}
+
+The above image shows the export from DataScribe, modified with alternating colors for the rows for readability. Note the column with the Omeka S item identifier. The final column, `Street names`, has multiple values which are separated by a semicolon.
+
+If you want to split the data in some of the rows into separate columns, you can do so here. Some csv reading software (Google Sheets, Excel) will split text into columns at specific punctuation marks. This is an alternative to using the multi-value separator option in the csv import. For the image above, we could split the street names at the semicolon.
 
 ### Import
 
@@ -50,8 +54,6 @@ When mapping columns to Omeka S data, it may be be useful to have written which 
 
 If you decided to use the multi-value option, you will need to indicate that in the mapping options for that column. Click the wrench icon and ensure that the "use multivalue separator" box is checked.
 
-If you have the Numeric Data Types module installed, you can import any date or datetime data fields in timestamp format.
-
 #### Basic import settings
 
 Bearing in mind that you are updating existing items, you can select a new resource template to use.
@@ -62,6 +64,8 @@ Be sure that the correct symbol is entered for the multi-value separator, if you
 
 In the advanced settings tab, use the Import type dropdown to choose: "Append data to the resource: Add new data to the resource, based on an identifier for an existing resource. (Cannot be undone.)"
 
+{{< figure src="/tutorials/reimportDST-importAdvSett.png" alt="Advanced settings tab with the option to append data selected. The dropdown for identifier is set to Omeka Item # and the property is set to internal ID" class="docimg" >}}
+
 For the identifier column, chose the Omeka Item # column. This column is automatically created by DataScribe in the export. For the identifier property, choose "internal ID" (meaning the Omeka S item ID).
 
 ### Verify the import
@@ -69,6 +73,8 @@ For the identifier column, chose the Omeka Item # column. This column is automat
 Once the import is complete, open at least one of the Omeka S items you know were part of the item set which populated the dataset. Check to make sure that the information has been properly mapped and imported.
 
 Remember that if the import had errors you will have to *manually* remove the bad data. Imports which append data cannot be undone.
+
+----
 
 ## Screencast
 

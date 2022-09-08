@@ -228,4 +228,6 @@ video.video-embed {
     border-style: solid;
     border-width: thin;
     border-color: #999;
+    padding:2%;
+    margin: 20px;
 }

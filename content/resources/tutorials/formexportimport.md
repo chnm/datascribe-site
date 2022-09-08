@@ -36,6 +36,8 @@ Click "Add new dataset."
 
 When you go in to edit your new dataset, you should now see the form you imported. From here, you can also add, delete, or modify fields as needed for this specific dataset.
 
+----
+
 ## Screencast
 
 This screencast walks through the process of exporting and importing a dataset form.
