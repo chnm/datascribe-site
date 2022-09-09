@@ -18,7 +18,7 @@ The screenshots in this example are primarily from 1950 Census data using the Ce
 
 The example in this tutorial has a one to one correlation between the record and the item; each item only generates one record.
 
-### Prepartion
+### Preparation
 
 Be mindful of possible post-processing work when creating the guidelines and form.
 
@@ -94,9 +94,9 @@ This course of action should be undertaken only after serious consideration. If 
 
 Follow the directions as given above, this time using a csv where there are multiple records per item.
 
-In this instance, we have imported the names and locations from the *Directory* into the properites "has part" and "spatial coverage", respectively.
+In this instance, we have imported the names and locations from the *Directory* into the properties "has part" and "spatial coverage", respectively.
 
-{{< figure src="/tutorials/reimportDST-Var1a.png" alt="Screenshot of a csv file with three rows of data. There are columsn for Omeka S Item, DatatScribe Item ID, Name, Occupation, and Location" class="docimg" >}}
+{{< figure src="/tutorials/reimportDST-Var1a.png" alt="Screenshot of a csv file with three rows of data. There are columns for Omeka S Item, DataScribe Item ID, Name, Occupation, and Location" class="docimg" >}}
 
 This image shows the mapping tab in the csv import module:
 
