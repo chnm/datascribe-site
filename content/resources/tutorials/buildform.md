@@ -39,7 +39,7 @@ In addition, you can set any field as required. If a transcriber leaves a requir
 
 One field must be designated as the primary field which acts as the identifier for the record.
 
-Use the worksheet or your own document to decide what fields you want to use for when building your form or forms. Bear in mind that you may end up needing to create multiple forms to best caputre data from a source.
+Use the worksheet or your own document to decide what fields you want to use for when building your form or forms. Bear in mind that you may end up needing to create multiple forms to best capture data from a source.
 
 Download [full worksheet (PDF)](/tutorials/DataScribe_FormWorksheetFull.pdf) or the [only blank form table](/tutorials/DataScribe_FormWorksheetOnly.pdf).
 

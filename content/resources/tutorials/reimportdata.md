@@ -12,7 +12,7 @@ For this process, you will need:
 
 **Note** This mapping process described here will only work when importing the exported data into the *same* Omeka S installation where the DataScribe transcription has taken place.
 
-The screenshots in this example are primarily from 1950 Census data using the Census Sheet Data form[(download json file)](/tutorials/censusSheetDataForm.json), importing into items using the Census Items resource template [(download json file)](/tutorials/censusDocumentTemplate.json). If you want to run a test using these resources, download the linked jsons and a selection of pages from the [1950 Census website](https://1950census.archives.gov). Create a dataset with the form and transcribe at least three sheets (items).
+The screenshots in this example are primarily from 1950 Census data using the Census Sheet Data form [(download json file)](/tutorials/censusSheetDataForm.json), importing into items using the Census Items resource template [(download json file)](/tutorials/censusDocumentTemplate.json). If you want to run a test using these resources, download the linked json files and a selection of pages from the [1950 Census website](https://1950census.archives.gov). Create a dataset with the form and transcribe at least three sheets (items).
 
 ## Add exported data to existing items
 
