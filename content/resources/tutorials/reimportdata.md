@@ -76,12 +76,6 @@ Remember that if the import had errors you will have to *manually* remove the ba
 
 ----
 
-## Screencast
-
-This screencast demonstrates the process outlined above.
-
-----
-
 ## Variations
 
 In addition to updating Omeka S items with information, one row in the exported csv per Omeka S item, there are other possible approaches. These are suggestions about how you might modify the above tutorial to run these sorts of import updates.
