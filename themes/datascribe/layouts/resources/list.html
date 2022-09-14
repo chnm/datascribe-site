@@ -11,9 +11,10 @@
 
         <div class="pagelist">
             <!-- Ranges through content/posts/*.md -->
-            {{ range .Pages }}
-                  <p><a href="{{.Permalink}}">{{.Title}}:</a> {{.Summary}}</p>
+            {{ range .Pages.ByWeight }}
+                  <p><a href="{{.Permalink}}">{{.Title}}:</a> {{.Summary}}. </p>
             {{ end }}</div>
+            
     </div>  
   </div>
 </div>

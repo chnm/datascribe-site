@@ -2,6 +2,8 @@
 title: Build a form
 type: page
 summary: "A walkthrough of the process of translating historical structured data to DataScribe form fields."
+tags: [dataset]
+weight: 2
 ---
 
 Forms provide the framework for the structured transcription in DataScribe. When building forms for your datasets, take some time to look at your historical sources and think about how you want to organize your forms. With some sources, it might be worth creating multiple forms to capture distinct subsets of data on the same page.

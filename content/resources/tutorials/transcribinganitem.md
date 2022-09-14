@@ -2,6 +2,8 @@
 title: Transcribing an item
 type: page
 summary: "How to transcribe an item in Datascribe."
+tags: [transcription]
+weight: 3
 ---
 
 So you want to transcribe? Here is how to get started!

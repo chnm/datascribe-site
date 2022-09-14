@@ -2,6 +2,8 @@
 title: Exporting and importing forms
 type: page
 summary: "How to export a form from an existing dataset and import it when creating a new dataset."
+tags: [dataset]
+weight: 2
 ---
 
 In a DataScribe project you may need to use the same or similar forms for multiple datasets. Rather than making the same form over and over, you can export the form from an existing dataset and reuse it. This is particularly helpful when you have longer forms.

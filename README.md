@@ -10,9 +10,20 @@ New pages should go in the section with which they correspond. The index pages o
 
 Every new lesson plan, or tutorial must include the following information at the top of the page in the metadata section:
 
->title: Title without enclosing quotes
->type: page
->summary: "This summary will appear on the parent page for this page's section. It helps users know what's on this page."
+```
+title: Title without enclosing quotes
+type: page
+summary: "This summary will appear on the parent page for this page's section. It helps users know what's on this page."
+weight: #
+```
+
+Weight helps order the pages on their respective index pages. Weight numbers correspond to the following topics: 
+
+- 0 Prepartory work
+- 1 Project creation and management
+- 2 Dataset and form creation and management
+- 3 Transcribing and reviewing
+- 4 Data exports and working with exported data
 
 The Case Studies page has a table of contents section in the page metadata. Each case study included on the page should have an entry in that section; use the existing entries as a model.
 
