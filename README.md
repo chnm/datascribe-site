@@ -10,16 +10,16 @@ New pages should go in the section with which they correspond. The index pages o
 
 Every new lesson plan, or tutorial must include the following information at the top of the page in the metadata section:
 
-```
+```text
 title: Title without enclosing quotes
 type: page
 summary: "This summary will appear on the parent page for this page's section. It helps users know what's on this page."
 weight: #
 ```
 
-Weight helps order the pages on their respective index pages. Weight numbers correspond to the following topics: 
+Weight helps order the pages on their respective index pages. Weight numbers correspond to the following topics:
 
-- 0 Prepartory work
+- 0 Preparatory work
 - 1 Project creation and management
 - 2 Dataset and form creation and management
 - 3 Transcribing and reviewing
@@ -39,5 +39,5 @@ There are three directories in the `/static` directory:
 
 - casestudies: illustrative images and full-text pdfs for case studies
 - tutorials: images and additional files for any tutorials
-- lessonplans: images and addditional files for lesson plans
+- lessonplans: images and additional files for lesson plans
 - videos: all screencast files and any other video files
