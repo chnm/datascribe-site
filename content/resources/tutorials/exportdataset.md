@@ -24,6 +24,7 @@ Note that every DataScribe export has columns for the Omeka item number, the Dat
 
 {{< figure src="/tutorials/exportDataExcsv.png" alt="Snippet of an exported csv viewed in Excel showing the columns for the Omeka and DataScribe meta-information" class="docimg">}}
 
-Download this tutorial as a pdf.
+[Download this tutorial as a pdf.](/tutorials/exportDataset.pdf)
 
 ## Screencast
+

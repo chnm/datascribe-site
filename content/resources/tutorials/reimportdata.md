@@ -78,6 +78,12 @@ Remember that if the import had errors you will have to *manually* remove the ba
 
 ----
 
+## Screencast
+
+{{< video src="/videos/" alt="screencast of the above tutorial" >}}
+
+----
+
 ## Variations
 
 In addition to updating Omeka S items with information, one row in the exported csv per Omeka S item, there are other possible approaches. These are suggestions about how you might modify the above tutorial to run these sorts of import updates.
@@ -119,3 +125,7 @@ In this example, the data has been imported as new items. The `Omeka S Item #` c
 This import created three new items. As you can see from this item, created in the import, the `Is Part of Property` has for its value the Omeka item for the page on which this data appears in the original document.
 
 {{< figure src="/tutorials/reimportDST-Var2b.png" alt="item with plain text metadata for title, description, and spatial coverage. The metadata for Is Part Of is a link to a different Omeka item." class="docimg" >}}
+
+## Download
+
+[Download this tutorial as a pdf.](/tutorials/exportImportData.pdf)
