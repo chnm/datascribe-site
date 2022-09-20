@@ -4,6 +4,8 @@ This repository contains the website for the [DataScribe module](https://datascr
 
 The website is built using Hugo, a static site generator.
 
+Any substantial or long-form edits should be made using the `edits` branch. This will ensure the stability of the site while edits are in process.
+
 ## Content guide
 
 New pages should go in the section with which they correspond. The index pages of the Resources, Tutorials, Lesson Plan, and Support sections are coded so that they pull from the title and summary of the pages within those sections. Remember to add pages as markdown (`.md`) documents or they will not appear on the parent page.
