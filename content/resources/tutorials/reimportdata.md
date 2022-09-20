@@ -80,7 +80,7 @@ Remember that if the import had errors you will have to *manually* remove the ba
 
 ## Screencast
 
-{{< video src="/videos/" alt="screencast of the above tutorial" >}}
+{{< video src="/videos/FormImportExport.mp4" alt="screencast of the above tutorial" >}}
 
 ----
 
