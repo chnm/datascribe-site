@@ -30,9 +30,11 @@ In the following case study we describe how the [American Religious Ecologies pr
 
 ## Death by Numbers
 
-Written by Daniel Howlett and Emily Meyers
+Written by Hernán Adasme, Daniel Howlett, and Emily Meyers
 
-This [project](https://deathbynumbers.org) transcribe and publish the information in the London Bills of Mortality from the sixteenth through the eighteenth centuries into a dataset suitable for computational analysis.
+Death By Numbers is a project to transcribe and analyze the London Bills of Mortality, a weekly and annual series of mortality statistics produced from 1603 to 1752.  With almost 8,000 bills from the weekly series alone, there is quite a bit of data to sift through and transform into a manageable format for computational analysis.  In this case study we will explain how Datascribe was an instrumental part of this process of transcription and transformation.
+
+[Read the full case study (pdf)](/casestudies/DataScribe_BillsOfMortality_CaseStudy.pdf)
 
 Read more about the processes and procedures used by the Death by Numbers team in their blog posts in the categories for [transcription](https://deathbynumbers.org/tag/transcription/) and [metadata](https://deathbynumbers.org/tag/metadata/)
 
@@ -40,15 +42,15 @@ Read more about the processes and procedures used by the Death by Numbers team i
 
 ## Plague in Iquique, 1903: Transcribing non-tabular data using DataScribe
 
-Written by Hernan Adasme
+Written by Hernán Adasme
 
-This case study examines how to transcribe non-tabular or semi-structured data using DataScribe. The analysis starts with an historical overview of the project Plague in Iquique, 1903, followed by description of the sources used. Then, the case study details the process of organizing and translating the sources into separate Omeka items that can be used to create a DataScribe project in the DataScribe module. Next, the case study walks the reader through the process creating a transcription form that captures information that suits the historical questions posed over the sources. Finally, the case study delves into how the data is being recorded in DataScribe, and some possible research paths that a DataScribe dataset allows historians to pursue.
+This case study examines how to transcribe non-tabular or semi-structured data using DataScribe. The analysis starts with an historical overview of the project Plague in Iquique, 1903, followed by description of the sources used. Then, the case study details the process of organizing and translating the sources into separate Omeka items that can be used to create a DataScribe project Ein the DataScribe module. Next, the case study walks the reader through the process creating a transcription form that captures information that suits the historical questions posed over the sources. Finally, the case study delves into how the data is being recorded in DataScribe, and some possible research paths that a DataScribe dataset allows historians to pursue.
 
 [Read the full case study (pdf)](/casestudies/Plague_Iquique1903.pdf)
 
 ## Peste Bubónica en Iquique, 1903: Transcripción de datos no tabulares usando DataScribe
 
-by Hernan Adasme
+Escrito por Hernán Adasme
 
 Este caso de estudio examina el proceso de transcripción de datos no tabulares o semi estructurados usando DataScribe. El análisis comienza con una descripción general del proyecto *Peste Bubónica en Iquique 1903*, para luego llevar a cabo una caracterización de las fuentes utilizadas. A continuación, el estudio detalla el proceso de organización de las fuentes en ítems de Omeka S para ser usados para crear un proyecto DataScribe en el módulo DataScribe. Posteriormente, el estudio guía el proceso de creación de un formulario de transcripción destinado a capturar información de interés, a propósito de las preguntas históricas planteadas sobre las fuentes. Finalmente, el estudio profundiza en cómo crear los registros en DataScribe, y en algunos posibles caminos investigativos que DataScribe permite a los investigadores recorrer.
 

@@ -16,7 +16,7 @@ Once the data is validated, you can export your dataset. From the "More actions"
 
 {{< figure src="/tutorials/exportData1.png" alt="Dataset metadata drawer with blue arrows pointing to the last validated, last exported, and download dataset options" class="docimg">}}
 
-To access the export, use the download dataset link at the bottom of the dataset metadata sidebar.
+To access the export, use the "download dataset" link at the bottom of the dataset metadata sidebar.
 
 If you click the link, it will open the csv data in your browser window. To save the file right-click or control-click and use your browser's menu to save the linked file to your computer.
 
@@ -28,3 +28,4 @@ Note that every DataScribe export has columns for the Omeka item number, the Dat
 
 ## Screencast
 
+{{< video src="/videos/ExportData.mp4" >}}
