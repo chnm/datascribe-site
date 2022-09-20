@@ -1,0 +1,97 @@
+[
+    {
+        "data_type": "text",
+        "name": "Sheet Identifier",
+        "description": "State-County or City-ED-s[Number]",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "number",
+        "name": "Sheet number",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "min": null,
+            "max": null,
+            "step": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "date",
+        "name": "Date sheet started",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "min_year": "1950",
+            "max_year": "1950",
+            "default_year": "1950",
+            "default_month": "4",
+            "default_day": "1"
+        }
+    },
+    {
+        "data_type": "text",
+        "name": "Census enumerator",
+        "description": "",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null,
+            "datalist": []
+        }
+    },
+    {
+        "data_type": "textarea",
+        "name": "Streets on this sheet",
+        "description": "separate with semicolon",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "rows": null,
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null
+        }
+    },
+    {
+        "data_type": "textarea",
+        "name": "Enumerator notes",
+        "description": "Any notes from the enumerator",
+        "is_primary": false,
+        "is_required": false,
+        "data": {
+            "rows": null,
+            "minlength": null,
+            "maxlength": null,
+            "placeholder": null,
+            "pattern": "",
+            "default_value": null,
+            "label": null
+        }
+    }
+]

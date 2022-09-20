@@ -1,0 +1,48 @@
+
+{{ define "main" }}
+<div class="grid-container">  
+    <div class="grid-x grid-padding-x">
+   <div class="medium-8 cell medium-offset-2">
+
+       <h1 class="page">{{ .Title }}</h1> 
+       <hr width="100%">
+
+        {{ .Content }}
+        
+       <!--Get project tutorials-->
+       <div class="pagelist">
+        <h2>Projects</h2>
+          {{- range first 5 (where .Site.RegularPages "Params.tags" "intersect" (slice "project")) -}}
+          <p><a href="{{.Permalink}}">{{.Title}}:</a> {{.Summary}}</p>
+          {{end}}
+      </div>
+        <!-- Get dataset tutorials-->
+        <div class="pagelist">
+          <h2>Datasets</h2>
+          <p>These tutorials relate to the process of adding and editing datasets. For information on creating guidelines, please see the  <a href="/resources/casestudies">case studies.</a></p>
+            {{- range first 5 (where .Site.RegularPages "Params.tags" "intersect" (slice "dataset")) -}}
+            <p><a href="{{.Permalink}}">{{.Title}}:</a> {{.Summary}}</p>
+            {{end}}
+        </div>
+
+                  <!-- Get transcription tutorials-->
+                  <div class="pagelist">
+                    <h2>Transcribing</h2>
+                    <p>These tutorials relate to transcription and review.</a></p>
+                      {{- range (where .Site.RegularPages "Params.tags" "intersect" (slice "transcription")) -}}
+                      <p><a href="{{.Permalink}}">{{.Title}}:</a> {{.Summary}}</p>
+                      {{end}}
+                  </div> 
+
+             <!-- Get data tutorials-->
+             <div class="pagelist">
+              <h2>Data</h2>
+              <p>These tutorials relate to getting and using the data out of DataScribe.</a></p>
+                {{- range (where .Site.RegularPages "Params.tags" "intersect" (slice "data")) -}}
+                <p><a href="{{.Permalink}}">{{.Title}}:</a> {{.Summary}}</p>
+                {{end}}
+            </div>
+    </div>  
+  </div>
+</div>
+{{ end }}

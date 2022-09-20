@@ -216,3 +216,18 @@ footer .logos img {
 .pagelist a{
     font-weight:400;
 }
+
+/* Embedded videos */
+video.video-embed {
+  max-width: 100%;
+}
+
+/*Image styling for resource pages*/
+
+.docimg img{
+    border-style: solid;
+    border-width: thin;
+    border-color: #999;
+    padding:2%;
+    margin: 20px;
+}
