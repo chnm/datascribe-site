@@ -12,21 +12,35 @@ Reviewers will check transcriptions when transcribers have completed their work 
 
 There are multiple ways to find the records for review. The easiest way is to look under My Projects and select All Items needing review under the dataset you wish to review.
 
-Once you reach a dataset page, you can filter for items that need review.  As a reviewer, you will see all the filter options available to transcribers as well as “Items that need review” and “Items that I reviewed.”  Select the “Items that need review” option, click the Filter button to see only the items that need review.  You can sort these items based on title, the date the item was submitted for review, the item’s review history, and if the item is prioritized or not. 
+On the dataset page, you can use the filter dropdown above the table of items to find items to review.
+
+In the dropdown, select the “Items that need review” option. Click the Filter button to apply the filter.
+
+You can sort these items based on title, the date the item was submitted for review, the item’s review history, and if the item is prioritized or not.
 
 ## Review an item
 
-Once you find the item to review, select the item title to view the records page. Your project guidelines should determine the relationship between records and items. A red exclamation point icon next to any record number indicates a problem with the required fields in the records.  Other transcription issues, such as misspellings, accidentally skipping over fields, or illegible sections require the reviewer to check the entire form. It is possible to scroll through the record table to see the entries without the item image, but this depends on the level of review the project guidelines require.
+Once you find the item to review, select the item title to view the records page.
+
+Your project guidelines should determine the relationship between records and items.
+
+A red exclamation point icon next to any record number indicates a problem with the required fields in the records.  Other transcription issues, such as misspellings, accidentally skipping over fields, or illegible sections require the reviewer to check the entire form.
+
+Depending on the level of review required by the project guidelines and the size of the form,  you may be able to scroll through the record table to see the entries without the item image.
 
 ### Reviewing the records
 
-At this point, reviewing a transcription is a lot like transcribing one.  Click the pencil icon to go to the DataScribe form. The reviewer can check Needs Work and leave notes on the record.  If you are transcribing multiple records per item, the Record actions on the right-hand side will let reviews mark the specific record.  Notes can also be left on the item level under Item Actions on the Records table page. From here, you will click “save… and return to records.”
+At this point, reviewing a transcription is a lot like transcribing one.
+
+Click the pencil icon to go to the DataScribe form. When looking at an individual record, you can check the Needs Work  box in the Record Actions side bar. You can also leave notes on the record in the sidebar.
+
+You an also leave notes on the item level under Item Actions on the Records table page. From here, you will click “save… and return to records.”
 
 ## Final actions
 
-The final step is to set the item as either approved or not approved. Under the Review status, select “Mark as approved” or “Mark as not approved” and then use the Save button in the top right-hand corner.
+The final step is to set the *item* as either approved or not approved. In the Item Actions sidebar, use the Review status dropdown to select “Mark as approved” or “Mark as not approved.” Then use the Save button in the top right-hand corner.
 
-If the item is not approved, you should leave a note in the item or record to direct the transcriber on what issues to correct.
+If you have not approved the item, you should leave a note in the item or record to explain to the transcriber what issues they need to correct.
 
 ----
 
