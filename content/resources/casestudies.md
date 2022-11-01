@@ -3,6 +3,7 @@ title: "Case Studies"
 type: page
 toc: true
 summary: "Examples of projects using DataScribe which can serve as models for those looking to learn more about the tool. The case studies include both public projects and internal case study work"
+weight: 1
 projects:
 - title: "Religious Ecologies"
   desc: "A large-scale project using early twentieth-century religious census data to create open datasets and visualizations."
