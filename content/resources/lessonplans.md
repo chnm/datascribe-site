@@ -15,4 +15,4 @@ This lesson uses the form building worksheet to help students understand the dec
 
 The activity should be part of a larger conversation about structured data, historical data, and how humanists create machine-readable datasets. There is an appendix with suggested readings at the end of the lesson plan.
 
-Download as a [pdf](/lessonplans/DataScribe_Lessonplan_Forms.pdf) or [docx]()
+Download as a [pdf](/lessonplans/DataScribe_Lessonplan_Forms.pdf) or [docx](/lessonplans/DataScribeFormLessonplan.docx)
