@@ -8,7 +8,7 @@ projects:
   desc: "A large-scale project using early twentieth-century religious census data to create open datasets and visualizations."
 - title: "Death by Numbers"
   desc: "A project transcribing the London Bills of Mortality (16th-18th centuries)."
-- title: "Plague in Iqueque"
+- title: "Plague in Iquique, 1903"
   desc: "This case study examines how to transcribe non-tabular or semi-structured data using DataScribe."
 - title: "Peste Bubónica en Iquique, 1903"
   desc: "Este caso de estudio examina el proceso de transcripción de datos no tabulares o semi estructurados usando DataScribe."
@@ -40,7 +40,7 @@ Read more about the processes and procedures used by the Death by Numbers team i
 
 ---
 
-## Plague in Iquique, 1903: Transcribing non-tabular data using DataScribe
+## Plague in Iquique, 1903
 
 Written by Hernán Adasme
 
@@ -48,7 +48,7 @@ This case study examines how to transcribe non-tabular or semi-structured data u
 
 [Read the full case study (pdf)](/casestudies/Plague_Iquique1903.pdf)
 
-## Peste Bubónica en Iquique, 1903: Transcripción de datos no tabulares usando DataScribe
+## Peste Bubónica en Iquique, 1903
 
 Escrito por Hernán Adasme
 
