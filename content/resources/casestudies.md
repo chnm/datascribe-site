@@ -12,6 +12,8 @@ projects:
   desc: "This case study examines how to transcribe non-tabular or semi-structured data using DataScribe."
 - title: "Peste Bubónica en Iquique, 1903"
   desc: "Este caso de estudio examina el proceso de transcripción de datos no tabulares o semi estructurados usando DataScribe."
+- title: "1950 United States Census"
+  desc: "This case study explores the process of creating projects and datasets to transcribe returns from the 1950 United States census."
 ---
 
 Suggested citation style: Author names, "Title of Case Study," *DataScribe.tech*, 2022, < full uri >.
@@ -55,3 +57,13 @@ Escrito por Hernán Adasme
 Este caso de estudio examina el proceso de transcripción de datos no tabulares o semi estructurados usando DataScribe. El análisis comienza con una descripción general del proyecto *Peste Bubónica en Iquique 1903*, para luego llevar a cabo una caracterización de las fuentes utilizadas. A continuación, el estudio detalla el proceso de organización de las fuentes en ítems de Omeka S para ser usados para crear un proyecto DataScribe en el módulo DataScribe. Posteriormente, el estudio guía el proceso de creación de un formulario de transcripción destinado a capturar información de interés, a propósito de las preguntas históricas planteadas sobre las fuentes. Finalmente, el estudio profundiza en cómo crear los registros en DataScribe, y en algunos posibles caminos investigativos que DataScribe permite a los investigadores recorrer.
 
 [Acceda a la version completa del caso de estudio aquí (pdf)](/casestudies/PesteBubonica_Iquique1903.pdf)
+
+---
+
+## 1950 United States Census
+
+Written by Megan R. Brett
+
+This case study explores the process of creating projects and datasets to transcribe returns from the 1950 United States census. The final structure of the DataScribe projects were determined only after a great deal of iteration and experimentation which are detailed in the study. The study includes recommendations and resources for using DataScribe and 1950 United States census returns as a learning tool.
+
+[Read the full case study (pdf)](/casestudies/DataScribeCaseStudy_1950CensusUS.pdf)
