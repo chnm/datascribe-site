@@ -12,7 +12,7 @@
       {{ end }}
       <ul class="toc__cases">
       {{ range .Params.projects }}
-      <li><a href="#{{ urlize .title }}">{{ .title }}</a>: {{ .desc }} </li>
+      <li><a href="#{{ anchorize .title }}">{{ .title }}</a>: {{ .desc }} </li>
       {{ end }}
       </ul>
         {{ .Content }}
