@@ -1,7 +1,7 @@
 ---
 title: Exporting and importing forms
 type: page
-summary: "How to export a form from an existing dataset and import it when creating a new dataset."
+summary: "How to export a form from an existing dataset and import it when creating a new dataset"
 tags: [dataset]
 weight: 2
 ---

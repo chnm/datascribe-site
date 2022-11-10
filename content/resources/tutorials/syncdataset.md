@@ -1,7 +1,7 @@
 ---
 title: Sync a dataset
 type: page
-summary: "A walk-through of how to sync your DataScribe dataset with the Omeka S item set."
+summary: "A walk-through of how to sync your DataScribe dataset with the Omeka S item set"
 tags: [dataset]
 weight: 2
 ---

@@ -1,7 +1,7 @@
 ---
 title: Export a dataset
 type: page
-summary: "How to export your dataset."
+summary: "How to export your dataset"
 tags: [dataset]
 weight: 5
 ---

@@ -1,7 +1,7 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Datascribe"
+name = "datascribe"
 license = "MIT"
 licenselink = "https://github.com/chnm/datascribe-site/blob/master/themes/datascribe/LICENSE"
 description = "Hugo theme for the DataScribe project for RRCHNM. Built using Foundation"

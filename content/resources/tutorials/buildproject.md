@@ -1,7 +1,7 @@
 ---
 title: Build a project
 type: page
-summary: "An introduction to creating projects in DataScribe."
+summary: "An introduction to creating projects in DataScribe"
 tags: [project]
 weight: 1
 ---
