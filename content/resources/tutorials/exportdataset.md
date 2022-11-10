@@ -3,7 +3,7 @@ title: Export a dataset
 type: page
 summary: "How to export your dataset."
 tags: [dataset]
-weight: 4
+weight: 5
 ---
 
 You can begin exporting your dataset as soon as you have at least one approved item.

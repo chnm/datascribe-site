@@ -3,7 +3,7 @@ title: Importing DataScribe data to Omeka S
 type: page
 summary: "How to use a DataScribe export to update the items in your Omeka S installation."
 tags: [data]
-weight: 4
+weight: 5
 ---
 
 For this process, you will need:
