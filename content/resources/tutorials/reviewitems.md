@@ -30,7 +30,7 @@ A red exclamation point icon next to any record number indicates a problem with 
 
 It is possible to scroll through the record table to see the entries without the item image, but this depends on the level of review the project guidelines require.
 
-At this point, reviewing a transcription is a lot like transcribing one.  Click the pencil icon to go to the DataScribe form. 
+At this point, reviewing a transcription is a lot like transcribing one.  Click the pencil icon to go to the DataScribe form.
 
 You can check Needs Work and leave notes on the record.  If you are transcribing multiple records per item, the Record actions on the right-hand side will let reviews mark the specific record.  
 
@@ -45,4 +45,3 @@ Under the Review status, select “Mark as approved” or “Mark as not approve
 If the item is not approved, you should leave a note in the item or record to direct the transcriber on what issues to correct and to mark only the areas in need of review when the item is resubmitted.
 
 Finally, click "save" to ensure your changes are saved.
-
