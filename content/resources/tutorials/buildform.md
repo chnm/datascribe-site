@@ -1,7 +1,7 @@
 ---
 title: Build a form
 type: page
-summary: "A walkthrough of the process of translating historical structured data to DataScribe form fields."
+summary: "A walkthrough of the process of translating historical structured data to DataScribe form fields"
 tags: [dataset]
 weight: 2
 ---

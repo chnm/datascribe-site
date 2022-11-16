@@ -24,8 +24,9 @@ Weight helps order the pages on their respective index pages. Weight numbers cor
 - 0 Preparatory work
 - 1 Project creation and management
 - 2 Dataset and form creation and management
-- 3 Transcribing and reviewing
-- 4 Data exports and working with exported data
+- 3 Transcribing
+- 4 Reviewing
+- 5 Data exports and working with exported data
 
 The Case Studies page has a table of contents section in the page metadata. Each case study included on the page should have an entry in that section; use the existing entries as a model. Be sure that the title in the page metadata exactly matches the header for the case study's section.
 
