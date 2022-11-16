@@ -38,7 +38,7 @@ To embed a screencast on a tutorial or other page, use `{{< video src="/videos/F
 
 ## File storage
 
-There are three directories in the `/static` directory:
+There are four directories in the `/static` directory:
 
 - casestudies: illustrative images and full-text pdfs for case studies
 - tutorials: images and additional files for any tutorials
