@@ -11,7 +11,7 @@ deploy : build
 	@echo "\nDeploying the site with rsync ..."
 	rsync --delete --itemize-changes --omit-dir-times \
 		--checksum -avz --no-t --no-perms --exclude-from=rsync-excludes \
-		public/ arata:/websites/datascribe/www/public | egrep -v '^\.'
+		public/ susanoo:/websites/datascribe.tech/public | egrep -v '^\.'
 	@echo "Finished deploying the site with rsync."
 
 .PHONY : preview build deploy
