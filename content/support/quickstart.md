@@ -15,7 +15,7 @@ If your hosting service uses Installatron or a similar service, you will be able
 
 ## Step 2. Install DataScribe
 
-[Download](https://omeka.org/s/modules/Datascribe-module/) the DataScribe module.
+[Download](https://omeka.org/s/modules/Datascribe/) the DataScribe module. **Currently, DataScribe is only compatible with Omeka S version 3.x**.
 
 Follow the [instructions in the Omeka S user manual](https://omeka.org/s/docs/user-manual/modules/#installing-modules) to install DataScribe in your Omeka S instance. Remember that once you have uploaded it to the /modules section of your Omeka S files, you need change the name of the module directory from Datascribe-module to Datascribe.
 

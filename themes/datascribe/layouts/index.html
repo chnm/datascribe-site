@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html>
-  {{ partial "head" . }}
-  <body>
-    {{ partial "header" . }}
-    <div>
-        <div class="bar">
-          <h1>DataScribe</h1>
-          <img class="center" src="{{ .Site.BaseURL }}img/datascribe-logo.png" alt="Logo for DataScribe">
-        </div>
+{{ partial "head" . }}
+
+<body>
+  {{ partial "header" . }}
+  <div>
+    <div class="bar">
+      <h1>DataScribe</h1>
+      <img class="center" src="{{ .Site.BaseURL }}img/datascribe-logo.png" alt="Logo for DataScribe">
     </div>
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="medium-8 medium-offset-2 cell">
-          <div class="anchor" id="what">
-            <div class="center">
+  </div>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="medium-8 medium-offset-2 cell">
+        <div class="anchor" id="what">
+          <div class="center">
 
-            <p class="large-p">A structured data transcription module for the <a href="https://omeka.org/s/">Omeka S platform</a>.</p>
+            <p class="large-p">A structured data transcription module for the <a href="https://omeka.org/s/">Omeka S
+                platform</a>.</p>
 
-              <a href="https://github.com/chnm/Datascribe-module/releases/tag/v1.1.0" class="button">Download DataScribe!</a>
-            </div>
-
-            <p>Download the ZIP, move it to the Omeka S modules/ directory, and unzip it there. Then go to your Omeka S installation under "Modules" and install DataScribe there.</p>
-
-            <h2>What is DataScribe?</h2>
-
-            <p>Scholars often collect sources, such as government forms or institutional records, intending to transcribe them into datasets which can be analyzed or visualized. This module enables scholars to identify the structure of the data within their sources, speed up the transcription of their sources, and reliably structure their transcriptions in a form amenable to computational analysis. Scholars can turn sources into tables of data stored as numbers, dates, categories, and more. Because this module builds on the Omeka S platform, it allows scholars to display transcriptions alongside the source images and metadata, to crowdsource transcriptions, and to publish their results on the web.</p>
-
-            <p class="four-hundred">Learn more about DataScribe with our <a href="/resources/tutorials/">tutorials</a>, <a href="/resources/casestudies">case studies, and the <a href="https://github.com/chnm/Datascribe-module/wiki">documentation</a>.</p>
-          
-            <p class="italic">DataScribe has been made possible in part by a major grant from the National Endowment for the Humanities: Exploring the human endeavor.
-            </p>
+            <a href="https://github.com/chnm/Datascribe-module/releases/tag/v1.1.0" class="button">Download
+              DataScribe!</a>
+            <span style="display: flex; justify-content: center; font-size: 0.9em; margin-bottom: 1.5em;">Compatible
+              with Omeka
+              3.x</span>
           </div>
 
+          <p>Download the ZIP, move it to the Omeka S modules/ directory, and unzip it there. Then go to your Omeka S
+            installation under "Modules" and install DataScribe there.</p>
+
+          <h2>What is DataScribe?</h2>
+
+          <p>Scholars often collect sources, such as government forms or institutional records, intending to transcribe
+            them into datasets which can be analyzed or visualized. This module enables scholars to identify the
+            structure of the data within their sources, speed up the transcription of their sources, and reliably
+            structure their transcriptions in a form amenable to computational analysis. Scholars can turn sources into
+            tables of data stored as numbers, dates, categories, and more. Because this module builds on the Omeka S
+            platform, it allows scholars to display transcriptions alongside the source images and metadata, to
+            crowdsource transcriptions, and to publish their results on the web.</p>
+
+          <p class="four-hundred">Learn more about DataScribe with our <a href="/resources/tutorials/">tutorials</a>, <a
+              href="/resources/casestudies">case studies, and the <a
+                href="https://github.com/chnm/Datascribe-module/wiki">documentation</a>.</p>
+
+          <p class="italic">DataScribe has been made possible in part by a major grant from the National Endowment for
+            the Humanities: Exploring the human endeavor.
+          </p>
         </div>
+
       </div>
     </div>
-    {{ partial "footer" . }}
-  </body>
+  </div>
+  {{ partial "footer" . }}
+</body>
+
 </html>
