@@ -7,11 +7,4 @@ build :
 	hugo --cleanDestinationDir --buildDrafts --buildFuture --baseURL https://datascribe.tech/
 	@echo "Website finished building."
 
-deploy : build
-	@echo "\nDeploying the site with rsync ..."
-	rsync --delete --itemize-changes --omit-dir-times \
-		--checksum -avz --no-t --no-perms --exclude-from=rsync-excludes \
-		public/ susanoo:/websites/datascribe.tech/public | egrep -v '^\.'
-	@echo "Finished deploying the site with rsync."
-
 .PHONY : preview build deploy
