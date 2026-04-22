@@ -1,25 +1,32 @@
-name: "[datascribe-site] Build, Release, Deploy"
+name: "[datascribe.tech] Build, Release, Deploy"
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - "main"
-    paths:
-      - "**"
 
 jobs:
-  hugo-build-release-deploy:
-    uses: chnm/.github/.github/workflows/hugo--build-release-deploy.yml@main
+  build-release:
+    uses: chnm/.github/.github/workflows/hugo--build-release.yml@main
     secrets: inherit
     with:
       container-registry: "ghcr.io"
-      container-image-name: "datascribe-site"
+      container-image-name: "datascribe-website"
       hugo-context-root: "."
       hugo-devl-url: "https://datascribe.tech"
       hugo-prod-url: "https://datascribe.tech"
-      
+
       build-artifact-name: "datascribe-website"
       release-tag-name-type: "iso"
-      
+
+      website-devl-fqdn: "datascribe.tech"
+      website-prod-fqdn: "datascribe.tech"
+
+  deploy:
+    uses: chnm/.github/.github/workflows/docker--deploy.yml@main
+    needs: [build-release]
+    secrets: inherit
+    with:
       website-devl-fqdn: "datascribe.tech"
       website-prod-fqdn: "datascribe.tech"
