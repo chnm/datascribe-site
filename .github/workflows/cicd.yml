@@ -13,6 +13,7 @@ jobs:
     with:
       container-registry: "ghcr.io"
       container-image-name: "datascribe-website"
+      hugo-content-path: "/srv/"
       hugo-context-root: "."
       hugo-devl-url: "https://datascribe.tech"
       hugo-prod-url: "https://datascribe.tech"
